@@ -1,0 +1,3568 @@
+fileFormatVersion: 2
+guid: 479ab2a054511224a9777be8c0632110
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8591580117567012038
+    second: Top
+  - first:
+      213: 627239269007759738
+    second: Left
+  - first:
+      213: -7232177920317142322
+    second: Bottom
+  - first:
+      213: -5518870052970857756
+    second: Right
+  - first:
+      213: -5813120119125236973
+    second: Top-Left
+  - first:
+      213: 748483379423089019
+    second: Bottom-Left
+  - first:
+      213: -8077324649355985811
+    second: Bottom-Right
+  - first:
+      213: 3295995495642605883
+    second: Bottom-Left Inner
+  - first:
+      213: 1257702328569927634
+    second: Bottom-Right Inner
+  - first:
+      213: -9123553841043657447
+    second: Top-Right
+  - first:
+      213: -995193672684564305
+    second: Top-Left Thin
+  - first:
+      213: -5438128854824832405
+    second: Bottom-Left Thin
+  - first:
+      213: 3019061567789172168
+    second: Bottom-Right Thin
+  - first:
+      213: 496774667486496431
+    second: Top-Right Thin
+  - first:
+      213: 852352503229427074
+    second: Empty Tile
+  - first:
+      213: -5385493019284775104
+    second: Decor
+  - first:
+      213: 7432631707766057190
+    second: Top-Right Inner
+  - first:
+      213: 7482094943155339412
+    second: Top-Left Inner
+  - first:
+      213: -40765642219194382
+    second: Melware TileSet_18
+  - first:
+      213: 3738513878098908932
+    second: Melware TileSet_19
+  - first:
+      213: 7319973455674983502
+    second: Melware TileSet_20
+  - first:
+      213: 4814806547695362861
+    second: Melware TileSet_21
+  - first:
+      213: -2067696651988347187
+    second: Melware TileSet_22
+  - first:
+      213: -5116080576145361300
+    second: Melware TileSet_23
+  - first:
+      213: -4758353056457302095
+    second: Melware TileSet_24
+  - first:
+      213: -4862504938298734178
+    second: Melware TileSet_25
+  - first:
+      213: 7037058042024412837
+    second: Melware TileSet_26
+  - first:
+      213: -7109981862439325059
+    second: Melware TileSet_27
+  - first:
+      213: 8366755429857184470
+    second: Melware TileSet_28
+  - first:
+      213: -4089125523853249320
+    second: Melware TileSet_29
+  - first:
+      213: -4497413407861324116
+    second: Melware TileSet_30
+  - first:
+      213: -201356261981759901
+    second: Melware TileSet_31
+  - first:
+      213: 4917670865895290877
+    second: Melware TileSet_32
+  - first:
+      213: 6126973466331797038
+    second: Melware TileSet_33
+  - first:
+      213: 8993276394732401191
+    second: Melware TileSet_34
+  - first:
+      213: -8092121893711251803
+    second: Melware TileSet_35
+  - first:
+      213: 1722932745590357572
+    second: Melware TileSet_36
+  - first:
+      213: 5045084759409011424
+    second: Melware TileSet_37
+  - first:
+      213: -3740348395852449465
+    second: Melware TileSet_38
+  - first:
+      213: 926025077474428270
+    second: Melware TileSet_39
+  - first:
+      213: 2153785033555579662
+    second: Melware TileSet_40
+  - first:
+      213: 4286809395958197103
+    second: Melware TileSet_41
+  - first:
+      213: -1877820619917366324
+    second: Melware TileSet_42
+  - first:
+      213: 4876175427693937703
+    second: Melware TileSet_43
+  - first:
+      213: -6613486473449125677
+    second: Melware TileSet_44
+  - first:
+      213: 9041078889293964706
+    second: Melware TileSet_45
+  - first:
+      213: 8736630298897964410
+    second: Melware TileSet_46
+  - first:
+      213: 6320896835189166692
+    second: Melware TileSet_47
+  - first:
+      213: -2777783182612812438
+    second: Melware TileSet_48
+  - first:
+      213: -5752593718552773890
+    second: Melware TileSet_49
+  - first:
+      213: 6404025707924534392
+    second: Melware TileSet_50
+  - first:
+      213: 6607761537786460988
+    second: Melware TileSet_51
+  - first:
+      213: -2519589361000266766
+    second: Melware TileSet_52
+  - first:
+      213: -2196917601300208487
+    second: Melware TileSet_53
+  - first:
+      213: 2509509574284148448
+    second: Melware TileSet_54
+  - first:
+      213: 1829173139820681603
+    second: Melware TileSet_55
+  - first:
+      213: -4792486382705995452
+    second: Melware TileSet_56
+  - first:
+      213: -5907385680932841755
+    second: Melware TileSet_57
+  - first:
+      213: 8675790837488611599
+    second: Melware TileSet_58
+  - first:
+      213: -4363531063374944335
+    second: Melware TileSet_59
+  - first:
+      213: 3363977996909287278
+    second: Melware TileSet_60
+  - first:
+      213: 8092331084388003434
+    second: Melware TileSet_61
+  - first:
+      213: -2124668669879076127
+    second: Melware TileSet_62
+  - first:
+      213: -51002076339371602
+    second: Melware TileSet_63
+  - first:
+      213: -7071757750377998784
+    second: Melware TileSet_64
+  - first:
+      213: -7201128032907886435
+    second: Melware TileSet_65
+  - first:
+      213: -5752882912118302447
+    second: Melware TileSet_66
+  - first:
+      213: -2808935482580052313
+    second: Melware TileSet_67
+  - first:
+      213: 417486401396497710
+    second: Melware TileSet_68
+  - first:
+      213: -5639076995419498767
+    second: Melware TileSet_69
+  - first:
+      213: 1635322214184882106
+    second: Melware TileSet_70
+  - first:
+      213: -3685577588153295373
+    second: Melware TileSet_71
+  - first:
+      213: 2469228417382841048
+    second: Melware TileSet_72
+  - first:
+      213: 8604055454771833133
+    second: Melware TileSet_73
+  - first:
+      213: -1910497618671459194
+    second: Melware TileSet_74
+  - first:
+      213: 387051558824875509
+    second: Melware TileSet_75
+  - first:
+      213: -9118945027467542410
+    second: Melware TileSet_76
+  - first:
+      213: 6625227537800686907
+    second: Melware TileSet_77
+  - first:
+      213: -4971105687573969364
+    second: Melware TileSet_78
+  - first:
+      213: -8871862295792470121
+    second: Melware TileSet_79
+  - first:
+      213: 7691112635372196136
+    second: Melware TileSet_80
+  - first:
+      213: -48783344778933920
+    second: Melware TileSet_81
+  - first:
+      213: -6067245969914888058
+    second: Melware TileSet_82
+  - first:
+      213: -6152769650584242166
+    second: Melware TileSet_83
+  - first:
+      213: 8355543921551937321
+    second: Melware TileSet_84
+  - first:
+      213: -7276667516022014211
+    second: Melware TileSet_85
+  - first:
+      213: 2417825716902979848
+    second: Melware TileSet_86
+  - first:
+      213: -7930358408727383330
+    second: Melware TileSet_87
+  - first:
+      213: -3451202708878485223
+    second: Melware TileSet_88
+  - first:
+      213: -368263206105115136
+    second: Melware TileSet_89
+  - first:
+      213: -5607001472556261667
+    second: Melware TileSet_90
+  - first:
+      213: -1458795354286470317
+    second: Melware TileSet_91
+  - first:
+      213: -3478598604093074230
+    second: Melware TileSet_92
+  - first:
+      213: 7581391290131412766
+    second: Melware TileSet_93
+  - first:
+      213: -6388247891826145428
+    second: Melware TileSet_94
+  - first:
+      213: -773641289819504362
+    second: Melware TileSet_95
+  - first:
+      213: 4057062867986372444
+    second: Melware TileSet_96
+  - first:
+      213: -2312428989987440172
+    second: Melware TileSet_97
+  - first:
+      213: 2702876880125091414
+    second: Melware TileSet_98
+  - first:
+      213: 8579887550596680974
+    second: Melware TileSet_99
+  - first:
+      213: 3049098063315440891
+    second: Melware TileSet_100
+  - first:
+      213: 3783510500246273430
+    second: Melware TileSet_101
+  - first:
+      213: -8583778460302143394
+    second: Melware TileSet_102
+  - first:
+      213: 5921369408522537691
+    second: Melware TileSet_103
+  - first:
+      213: 8354926352221862925
+    second: Melware TileSet_104
+  - first:
+      213: -2582724621740516197
+    second: Melware TileSet_105
+  - first:
+      213: -2701883846700099552
+    second: Melware TileSet_106
+  - first:
+      213: -8642693211739034973
+    second: Melware TileSet_107
+  - first:
+      213: 3875297427246354625
+    second: Melware TileSet_108
+  - first:
+      213: 4048467790029116741
+    second: Melware TileSet_109
+  - first:
+      213: 2676982407723967693
+    second: Melware TileSet_110
+  - first:
+      213: -6438471768981323292
+    second: Melware TileSet_111
+  - first:
+      213: -5179830306833016915
+    second: Melware TileSet_112
+  - first:
+      213: 3954770078398746582
+    second: Melware TileSet_113
+  - first:
+      213: 1138408077062475391
+    second: Melware TileSet_114
+  - first:
+      213: 7348545085656607312
+    second: Melware TileSet_115
+  - first:
+      213: -281822007812909140
+    second: Melware TileSet_116
+  - first:
+      213: 7619318390204576550
+    second: Melware TileSet_117
+  - first:
+      213: 7893627311956211213
+    second: Melware TileSet_118
+  - first:
+      213: 2981260557522637740
+    second: Melware TileSet_119
+  - first:
+      213: 2499073072913060306
+    second: Melware TileSet_120
+  - first:
+      213: -6979975404560170851
+    second: Melware TileSet_121
+  - first:
+      213: 1304204748003575057
+    second: Melware TileSet_122
+  - first:
+      213: -7363595459624093341
+    second: Melware TileSet_123
+  - first:
+      213: 6111344750286717858
+    second: Melware TileSet_124
+  - first:
+      213: 5437644591989024881
+    second: Melware TileSet_125
+  - first:
+      213: -4479730242766711276
+    second: Melware TileSet_126
+  - first:
+      213: -6576840112854635505
+    second: Melware TileSet_127
+  - first:
+      213: -8285636569101520939
+    second: Melware TileSet_128
+  - first:
+      213: -8997483850584622553
+    second: Melware TileSet_129
+  - first:
+      213: -3261086398823685869
+    second: Melware TileSet_130
+  - first:
+      213: -1118007273870537377
+    second: Melware TileSet_131
+  - first:
+      213: -5797435165399051228
+    second: Melware TileSet_132
+  - first:
+      213: 2816120851145758891
+    second: Melware TileSet_133
+  - first:
+      213: 5214859409593099177
+    second: Melware TileSet_134
+  - first:
+      213: 550250279815929564
+    second: Melware TileSet_135
+  - first:
+      213: -809614585468649476
+    second: Melware TileSet_136
+  - first:
+      213: -1053883672716058821
+    second: Melware TileSet_137
+  - first:
+      213: 7789999988091049327
+    second: Melware TileSet_138
+  - first:
+      213: -7931202631954067745
+    second: Melware TileSet_139
+  - first:
+      213: 5033362940412218956
+    second: Melware TileSet_140
+  - first:
+      213: -1190570383192062843
+    second: Melware TileSet_141
+  - first:
+      213: 5816411792736042561
+    second: Melware TileSet_142
+  - first:
+      213: 8900137983888092638
+    second: Melware TileSet_143
+  - first:
+      213: -3848121795302677399
+    second: Melware TileSet_144
+  - first:
+      213: -1581202056425324585
+    second: Melware TileSet_145
+  - first:
+      213: -3477884464726891277
+    second: Melware TileSet_146
+  - first:
+      213: 3924351769928832884
+    second: Melware TileSet_147
+  - first:
+      213: -3541340783240379695
+    second: Melware TileSet_148
+  - first:
+      213: -764286060306837839
+    second: Melware TileSet_149
+  - first:
+      213: -9051162624543493357
+    second: Melware TileSet_150
+  - first:
+      213: 1911738804969475782
+    second: Melware TileSet_151
+  - first:
+      213: 4491897259781488177
+    second: Melware TileSet_152
+  - first:
+      213: -8766107594223852719
+    second: Melware TileSet_153
+  - first:
+      213: 3672771123327994301
+    second: Melware TileSet_154
+  - first:
+      213: 7196245595074561923
+    second: Melware TileSet_155
+  - first:
+      213: -8828325163424218815
+    second: Melware TileSet_156
+  - first:
+      213: -711228439866826819
+    second: Melware TileSet_157
+  - first:
+      213: 2445074534544886093
+    second: Melware TileSet_158
+  - first:
+      213: 4242578961232955879
+    second: Melware TileSet_159
+  - first:
+      213: -2687568855559171141
+    second: Melware TileSet_160
+  - first:
+      213: 6109139677329000926
+    second: Melware TileSet_161
+  - first:
+      213: -8123096802089250147
+    second: Melware TileSet_162
+  - first:
+      213: 6136690466169095104
+    second: Melware TileSet_163
+  - first:
+      213: -4349040066203931061
+    second: Melware TileSet_164
+  - first:
+      213: 4782542649026278749
+    second: Melware TileSet_165
+  - first:
+      213: -8524789793745481435
+    second: Melware TileSet_166
+  - first:
+      213: -2906688226895331129
+    second: Melware TileSet_167
+  - first:
+      213: -425372918541332092
+    second: Melware TileSet_168
+  - first:
+      213: 7828418779086707489
+    second: Melware TileSet_169
+  - first:
+      213: -2855328449634267645
+    second: Melware TileSet_170
+  - first:
+      213: -7089861490218976287
+    second: Melware TileSet_171
+  - first:
+      213: 4716593745839798223
+    second: Melware TileSet_172
+  - first:
+      213: 3378744296857055042
+    second: Melware TileSet_173
+  - first:
+      213: 6654149370660082502
+    second: Melware TileSet_174
+  - first:
+      213: 1591073387690986822
+    second: Melware TileSet_175
+  - first:
+      213: 3177833689042692452
+    second: Melware TileSet_176
+  - first:
+      213: -3305863645020826522
+    second: Melware TileSet_177
+  - first:
+      213: 7046156445108757680
+    second: Melware TileSet_178
+  - first:
+      213: 5010824520854681631
+    second: Melware TileSet_179
+  - first:
+      213: -3041838038659136408
+    second: Melware TileSet_180
+  - first:
+      213: 6967308743132547645
+    second: Melware TileSet_181
+  - first:
+      213: 1243730934195541515
+    second: Melware TileSet_182
+  - first:
+      213: 7786784836057757574
+    second: Melware TileSet_183
+  - first:
+      213: 8072791969694772343
+    second: Melware TileSet_184
+  - first:
+      213: -4832566765816800788
+    second: Melware TileSet_185
+  - first:
+      213: -6841207413983402015
+    second: Melware TileSet_186
+  - first:
+      213: -7738933479860240954
+    second: Melware TileSet_187
+  - first:
+      213: -7514152518774622199
+    second: Melware TileSet_188
+  - first:
+      213: -4851252368120159035
+    second: Melware TileSet_189
+  - first:
+      213: -8411758645725759693
+    second: Melware TileSet_190
+  - first:
+      213: -6316850188403702126
+    second: Melware TileSet_191
+  - first:
+      213: 1174191402807067302
+    second: Melware TileSet_192
+  - first:
+      213: 8232743494131581069
+    second: Melware TileSet_193
+  - first:
+      213: -5981501275111712128
+    second: Melware TileSet_194
+  - first:
+      213: 4744982426495761449
+    second: Melware TileSet_195
+  - first:
+      213: -1594154579692787347
+    second: Melware TileSet_196
+  - first:
+      213: -4884101581054176291
+    second: Melware TileSet_197
+  - first:
+      213: 4972982036506145854
+    second: Melware TileSet_198
+  - first:
+      213: 7011173232471581905
+    second: Melware TileSet_199
+  - first:
+      213: 814677853399109708
+    second: Melware TileSet_200
+  - first:
+      213: -4634274266139992629
+    second: Melware TileSet_201
+  - first:
+      213: 8129354620911851716
+    second: Melware TileSet_202
+  - first:
+      213: -6284442413330620054
+    second: Melware TileSet_203
+  - first:
+      213: -7691101819927003992
+    second: Melware TileSet_204
+  - first:
+      213: -6853875478860564521
+    second: Melware TileSet_205
+  - first:
+      213: -3377413830661999023
+    second: Melware TileSet_206
+  - first:
+      213: -3184455678189501515
+    second: Melware TileSet_207
+  - first:
+      213: 2873391328592990831
+    second: Melware TileSet_208
+  - first:
+      213: -1483429678862559614
+    second: Melware TileSet_209
+  - first:
+      213: -783915160761892887
+    second: Melware TileSet_210
+  - first:
+      213: -3511231171497131696
+    second: Melware TileSet_211
+  - first:
+      213: 4425698660941885887
+    second: Melware TileSet_212
+  - first:
+      213: -8351791245075799137
+    second: Melware TileSet_213
+  - first:
+      213: 2868096506968902693
+    second: Melware TileSet_214
+  - first:
+      213: -709848928945820598
+    second: Melware TileSet_215
+  - first:
+      213: 5207224750965641392
+    second: Melware TileSet_216
+  - first:
+      213: 7967045784254214854
+    second: Melware TileSet_217
+  - first:
+      213: -59481099622496509
+    second: Melware TileSet_218
+  - first:
+      213: 1257450184169196079
+    second: Melware TileSet_219
+  - first:
+      213: -2132082057136276078
+    second: Melware TileSet_220
+  - first:
+      213: 23456462685540696
+    second: Melware TileSet_221
+  - first:
+      213: 6970763670606172127
+    second: Melware TileSet_222
+  - first:
+      213: -4030246467742358179
+    second: Melware TileSet_223
+  - first:
+      213: -8447134026095931699
+    second: Melware TileSet_224
+  - first:
+      213: 5607218898935788557
+    second: Melware TileSet_225
+  - first:
+      213: 4876104262196638673
+    second: Melware TileSet_226
+  - first:
+      213: 346724326820349078
+    second: Melware TileSet_227
+  - first:
+      213: 2401463440621211428
+    second: Melware TileSet_228
+  - first:
+      213: 1979326387556460836
+    second: Melware TileSet_229
+  - first:
+      213: 6405336667392369569
+    second: Melware TileSet_230
+  - first:
+      213: 6725096940730156305
+    second: Melware TileSet_231
+  - first:
+      213: -1467338254245735132
+    second: Melware TileSet_232
+  - first:
+      213: -6202062170331447980
+    second: Melware TileSet_233
+  - first:
+      213: -8724600476657322439
+    second: Melware TileSet_234
+  - first:
+      213: -1495597035361223785
+    second: Melware TileSet_235
+  - first:
+      213: -8517378803740155324
+    second: Melware TileSet_236
+  - first:
+      213: -3513322360209368688
+    second: Melware TileSet_237
+  - first:
+      213: 3313827821250604660
+    second: Melware TileSet_238
+  - first:
+      213: 6557387138706017099
+    second: Melware TileSet_239
+  - first:
+      213: 8530010860079168416
+    second: Melware TileSet_240
+  - first:
+      213: 6589913363437553115
+    second: Melware TileSet_241
+  - first:
+      213: 8196444057894063207
+    second: Melware TileSet_242
+  - first:
+      213: 9138315500211560642
+    second: Melware TileSet_243
+  - first:
+      213: 5654113976271413927
+    second: Melware TileSet_244
+  - first:
+      213: -5853891005219147799
+    second: Melware TileSet_245
+  - first:
+      213: 8051531012156617703
+    second: Melware TileSet_246
+  - first:
+      213: -5116194114550389229
+    second: Melware TileSet_247
+  - first:
+      213: -1420735038614469109
+    second: Melware TileSet_248
+  - first:
+      213: 1014403680881366281
+    second: Melware TileSet_249
+  - first:
+      213: 694541055157609091
+    second: Melware TileSet_250
+  - first:
+      213: -7770067775861752261
+    second: Melware TileSet_251
+  - first:
+      213: -1103661627236269377
+    second: Melware TileSet_252
+  - first:
+      213: 2330432552286853470
+    second: Melware TileSet_253
+  - first:
+      213: 3593016968352236682
+    second: Melware TileSet_254
+  - first:
+      213: -5709777844512678224
+    second: Melware TileSet_255
+  - first:
+      213: 8115548310945540124
+    second: Melware TileSet_256
+  - first:
+      213: -2077688819503196825
+    second: Melware TileSet_257
+  - first:
+      213: -7187762674681720982
+    second: Melware TileSet_258
+  - first:
+      213: 1384673337265820770
+    second: Melware TileSet_259
+  - first:
+      213: -8885815058622753759
+    second: Melware TileSet_260
+  - first:
+      213: -970983293836404879
+    second: Melware TileSet_261
+  - first:
+      213: 8595454816628481256
+    second: Melware TileSet_262
+  - first:
+      213: -5631492548656713254
+    second: Melware TileSet_263
+  - first:
+      213: -5076151714833200078
+    second: Melware TileSet_264
+  - first:
+      213: 3255529617064377891
+    second: Melware TileSet_265
+  - first:
+      213: -6052137871622254547
+    second: Melware TileSet_266
+  - first:
+      213: -1485888115292930283
+    second: Melware TileSet_267
+  - first:
+      213: 6336105593735624133
+    second: Melware TileSet_268
+  - first:
+      213: -3177875449530906001
+    second: Melware TileSet_269
+  - first:
+      213: 6886145771921762678
+    second: Melware TileSet_270
+  - first:
+      213: -3962257148383867671
+    second: Melware TileSet_271
+  - first:
+      213: 5395911124514510810
+    second: Melware TileSet_272
+  - first:
+      213: -6986038127171431092
+    second: Melware TileSet_273
+  - first:
+      213: 6717387623540523689
+    second: Melware TileSet_274
+  - first:
+      213: -5824063444957713262
+    second: Melware TileSet_275
+  - first:
+      213: 7191999515102593079
+    second: Melware TileSet_276
+  - first:
+      213: -664758651189324764
+    second: Melware TileSet_277
+  - first:
+      213: 2680976687436134481
+    second: Melware TileSet_278
+  - first:
+      213: -4424156929636814688
+    second: Melware TileSet_279
+  - first:
+      213: -3221902192268681460
+    second: Melware TileSet_280
+  - first:
+      213: -1669986863782681244
+    second: Melware TileSet_281
+  - first:
+      213: 226528941498113554
+    second: Melware TileSet_282
+  - first:
+      213: 4462180266522893807
+    second: Melware TileSet_283
+  - first:
+      213: -483467738950658142
+    second: Melware TileSet_284
+  - first:
+      213: -8398599511681375388
+    second: Melware TileSet_285
+  - first:
+      213: 3920816061897027262
+    second: Melware TileSet_286
+  - first:
+      213: -7606739058215510211
+    second: Melware TileSet_287
+  - first:
+      213: 7805571394316328388
+    second: Melware TileSet_288
+  - first:
+      213: -4693691916568837536
+    second: Melware TileSet_289
+  - first:
+      213: -3846353425734887849
+    second: Melware TileSet_290
+  - first:
+      213: 2490172368899378553
+    second: Melware TileSet_291
+  - first:
+      213: -9047809960981407387
+    second: Melware TileSet_292
+  - first:
+      213: -7459586921123903483
+    second: Melware TileSet_293
+  - first:
+      213: 1401711062496935966
+    second: Melware TileSet_294
+  - first:
+      213: -7703295999823452331
+    second: Melware TileSet_295
+  - first:
+      213: 5698811484686325512
+    second: Melware TileSet_296
+  - first:
+      213: 3290410944395893547
+    second: Melware TileSet_297
+  - first:
+      213: -2497536474491343285
+    second: Melware TileSet_298
+  - first:
+      213: 9172377995286779824
+    second: Melware TileSet_299
+  - first:
+      213: -400648252372001820
+    second: Melware TileSet_300
+  - first:
+      213: -7970651882000708745
+    second: Melware TileSet_301
+  - first:
+      213: 2121414594759354228
+    second: Melware TileSet_302
+  - first:
+      213: 3571866206301233098
+    second: Melware TileSet_303
+  - first:
+      213: -9102788609285584446
+    second: Melware TileSet_304
+  - first:
+      213: -8124389007141413461
+    second: Melware TileSet_305
+  - first:
+      213: 5261532544327237272
+    second: Melware TileSet_306
+  - first:
+      213: 7713228689772805284
+    second: Melware TileSet_307
+  - first:
+      213: 8541222034143517500
+    second: Melware TileSet_308
+  - first:
+      213: -234137378321739316
+    second: Melware TileSet_309
+  - first:
+      213: -3906157483374587186
+    second: Melware TileSet_310
+  - first:
+      213: 7414310237997481520
+    second: Melware TileSet_311
+  - first:
+      213: 3274262154857493472
+    second: Melware TileSet_312
+  - first:
+      213: 5943076418364600041
+    second: Melware TileSet_313
+  - first:
+      213: 7254188416586141325
+    second: Melware TileSet_314
+  - first:
+      213: -2904277241625022596
+    second: Melware TileSet_315
+  - first:
+      213: 6043179527076678710
+    second: Melware TileSet_316
+  - first:
+      213: 2275502831919573111
+    second: Melware TileSet_317
+  - first:
+      213: 8304883636180864701
+    second: Melware TileSet_318
+  - first:
+      213: -4585355274290186053
+    second: Melware TileSet_319
+  - first:
+      213: 1271059183385948466
+    second: Melware TileSet_320
+  - first:
+      213: 987074641197140214
+    second: Melware TileSet_321
+  - first:
+      213: -2256146315585828939
+    second: Melware TileSet_322
+  - first:
+      213: 262273964195106450
+    second: Melware TileSet_323
+  - first:
+      213: -3291139837583229655
+    second: Melware TileSet_324
+  - first:
+      213: 9138147542376069337
+    second: Melware TileSet_325
+  - first:
+      213: -9108132364762586967
+    second: Melware TileSet_326
+  - first:
+      213: -1241871996419605579
+    second: Melware TileSet_327
+  - first:
+      213: -3200930230244829543
+    second: Melware TileSet_328
+  - first:
+      213: -2760706135324736295
+    second: Melware TileSet_329
+  - first:
+      213: 9109420184850201247
+    second: Melware TileSet_330
+  - first:
+      213: 6114490867865510373
+    second: Melware TileSet_331
+  - first:
+      213: 891794919734200098
+    second: Melware TileSet_332
+  - first:
+      213: 1327067676154213731
+    second: Melware TileSet_333
+  - first:
+      213: 8976410230892836748
+    second: Melware TileSet_334
+  - first:
+      213: -6082550332451784542
+    second: Melware TileSet_335
+  - first:
+      213: 5027776152825466669
+    second: Melware TileSet_336
+  - first:
+      213: 2323024235444516262
+    second: Melware TileSet_337
+  - first:
+      213: 153314123620222766
+    second: Melware TileSet_338
+  - first:
+      213: 7509577862343686401
+    second: Melware TileSet_339
+  - first:
+      213: -2017855644064668540
+    second: Melware TileSet_340
+  - first:
+      213: -8176899830958681579
+    second: Melware TileSet_341
+  - first:
+      213: -3983396422915101133
+    second: Melware TileSet_342
+  - first:
+      213: -676681945734823151
+    second: Melware TileSet_343
+  - first:
+      213: -8658460529830079099
+    second: Melware TileSet_344
+  - first:
+      213: 1301235080153484810
+    second: Melware TileSet_345
+  - first:
+      213: -5148256838464164880
+    second: Melware TileSet_346
+  - first:
+      213: -5835645741377947647
+    second: Melware TileSet_347
+  - first:
+      213: 6536834731928370060
+    second: Melware TileSet_348
+  - first:
+      213: -1547773290058288233
+    second: Melware TileSet_349
+  - first:
+      213: -1911350403974756693
+    second: Melware TileSet_350
+  - first:
+      213: -8067569134774708648
+    second: Melware TileSet_351
+  - first:
+      213: -1224937021918730379
+    second: Melware TileSet_352
+  - first:
+      213: -3018582137239341416
+    second: Melware TileSet_353
+  - first:
+      213: 7827293983205175547
+    second: Melware TileSet_354
+  - first:
+      213: 7511332003638691859
+    second: Melware TileSet_355
+  - first:
+      213: 416334600963451449
+    second: Melware TileSet_356
+  - first:
+      213: 6462593868877261272
+    second: Melware TileSet_357
+  - first:
+      213: -4159278780634519117
+    second: Melware TileSet_358
+  - first:
+      213: 5218280054655112570
+    second: Melware TileSet_359
+  - first:
+      213: 4153225437205759072
+    second: Melware TileSet_360
+  - first:
+      213: 685218039677326090
+    second: Melware TileSet_361
+  - first:
+      213: -8207514735578237966
+    second: Melware TileSet_362
+  - first:
+      213: 4470266318281556451
+    second: Melware TileSet_363
+  - first:
+      213: -3513883415822057574
+    second: Melware TileSet_364
+  - first:
+      213: -7037800683307042780
+    second: Melware TileSet_365
+  - first:
+      213: -2339674398949963633
+    second: Melware TileSet_366
+  - first:
+      213: 6281011502942610553
+    second: Melware TileSet_367
+  - first:
+      213: -3915909260177170556
+    second: Melware TileSet_368
+  - first:
+      213: -1996783093634811845
+    second: Melware TileSet_369
+  - first:
+      213: 45454551866164362
+    second: Melware TileSet_370
+  - first:
+      213: -4407172398282574458
+    second: Melware TileSet_371
+  - first:
+      213: 3117679011778853580
+    second: Melware TileSet_372
+  - first:
+      213: -2888090782889293808
+    second: Melware TileSet_373
+  - first:
+      213: 7356950108065082772
+    second: Melware TileSet_374
+  - first:
+      213: 3422015531729926632
+    second: Melware TileSet_375
+  - first:
+      213: -2058981893752859406
+    second: Melware TileSet_376
+  - first:
+      213: -7761271516421356602
+    second: Melware TileSet_377
+  - first:
+      213: 5752907507613745680
+    second: Melware TileSet_378
+  - first:
+      213: 4951914750572919948
+    second: Melware TileSet_379
+  - first:
+      213: -5126438164156876578
+    second: Melware TileSet_380
+  - first:
+      213: -6454773813087237376
+    second: Melware TileSet_381
+  - first:
+      213: -5776183479265777488
+    second: Melware TileSet_382
+  - first:
+      213: 9071689814964507819
+    second: Melware TileSet_383
+  - first:
+      213: 3799237783934053576
+    second: Melware TileSet_384
+  - first:
+      213: 3673026230332291191
+    second: Melware TileSet_385
+  - first:
+      213: 8888833761149512969
+    second: Melware TileSet_386
+  - first:
+      213: 1510426085990662303
+    second: Melware TileSet_387
+  - first:
+      213: -6025847109250497995
+    second: Melware TileSet_388
+  - first:
+      213: 2640841674770755518
+    second: Melware TileSet_389
+  - first:
+      213: -2034502926833206490
+    second: Melware TileSet_390
+  - first:
+      213: 897417844212790216
+    second: Melware TileSet_391
+  - first:
+      213: -3032157595234157819
+    second: Melware TileSet_392
+  - first:
+      213: 423467631683214676
+    second: Melware TileSet_393
+  - first:
+      213: 7187150070141147538
+    second: Melware TileSet_394
+  - first:
+      213: 6484188485825017114
+    second: Melware TileSet_395
+  - first:
+      213: 1433209039422512425
+    second: Melware TileSet_396
+  - first:
+      213: -2207867610579602073
+    second: Melware TileSet_397
+  - first:
+      213: 2185554646778688509
+    second: Melware TileSet_398
+  - first:
+      213: -5716964801534048957
+    second: Melware TileSet_399
+  - first:
+      213: -7207679392914253016
+    second: Melware TileSet_400
+  - first:
+      213: 4963309381561155072
+    second: Melware TileSet_401
+  - first:
+      213: -3166866444469880482
+    second: Melware TileSet_402
+  - first:
+      213: 7905479415202178292
+    second: Melware TileSet_403
+  - first:
+      213: 2748249689302858631
+    second: Melware TileSet_404
+  - first:
+      213: -6993382753571645573
+    second: Melware TileSet_405
+  - first:
+      213: -4155577616943746854
+    second: Melware TileSet_406
+  - first:
+      213: -5517232505242978779
+    second: Melware TileSet_407
+  - first:
+      213: -173805533024791620
+    second: Melware TileSet_408
+  - first:
+      213: 3414509335049372016
+    second: Melware TileSet_409
+  - first:
+      213: -8173715884860042598
+    second: Melware TileSet_410
+  - first:
+      213: 5588000083318196993
+    second: Melware TileSet_411
+  - first:
+      213: -3404299824326184908
+    second: Melware TileSet_412
+  - first:
+      213: 8070143302587741342
+    second: Melware TileSet_413
+  - first:
+      213: -8290701188325061757
+    second: Melware TileSet_414
+  - first:
+      213: 4763525383588061550
+    second: Melware TileSet_415
+  - first:
+      213: -4945558137570551081
+    second: Melware TileSet_416
+  - first:
+      213: -5959736401660118669
+    second: Melware TileSet_417
+  - first:
+      213: -7015350445270877216
+    second: Melware TileSet_418
+  - first:
+      213: -8387811264831131650
+    second: Melware TileSet_419
+  - first:
+      213: -352038944054146368
+    second: Melware TileSet_420
+  - first:
+      213: -5416918637964173117
+    second: Melware TileSet_421
+  - first:
+      213: 1637135787625679689
+    second: Melware TileSet_422
+  - first:
+      213: 8267213137917306794
+    second: Melware TileSet_423
+  - first:
+      213: -5121525521224762402
+    second: Melware TileSet_424
+  - first:
+      213: -730174520963292560
+    second: Melware TileSet_425
+  - first:
+      213: 3920273835857372443
+    second: Melware TileSet_426
+  - first:
+      213: -717641823932144904
+    second: Melware TileSet_427
+  - first:
+      213: 5697291082484460678
+    second: Melware TileSet_428
+  - first:
+      213: 5246832744580281386
+    second: Melware TileSet_429
+  - first:
+      213: 1983439133194045821
+    second: Melware TileSet_430
+  - first:
+      213: 5128837120776615268
+    second: Melware TileSet_431
+  - first:
+      213: 5823418209364106042
+    second: Melware TileSet_432
+  - first:
+      213: -5814274876988782973
+    second: Melware TileSet_433
+  - first:
+      213: -8543757665343354764
+    second: Melware TileSet_434
+  - first:
+      213: -3389531450091356605
+    second: Melware TileSet_435
+  - first:
+      213: -6510703788811458237
+    second: Melware TileSet_436
+  - first:
+      213: 8868173920652797983
+    second: Melware TileSet_437
+  - first:
+      213: -5327289705870836643
+    second: Melware TileSet_438
+  - first:
+      213: 4462141604498930463
+    second: Melware TileSet_439
+  - first:
+      213: -1817104180416980053
+    second: Melware TileSet_440
+  - first:
+      213: -1056127421804966593
+    second: Melware TileSet_441
+  - first:
+      213: 4004889450459618439
+    second: Melware TileSet_442
+  - first:
+      213: -9204463484602758570
+    second: Melware TileSet_443
+  - first:
+      213: 2602931231336851144
+    second: Melware TileSet_444
+  - first:
+      213: -1880266047050224834
+    second: Melware TileSet_445
+  - first:
+      213: 8908166659180663772
+    second: Melware TileSet_446
+  - first:
+      213: -8827457018436537585
+    second: Melware TileSet_447
+  - first:
+      213: -1893190323925425211
+    second: Melware TileSet_448
+  - first:
+      213: 8530569294315975854
+    second: Melware TileSet_449
+  - first:
+      213: -818002046615040801
+    second: Melware TileSet_450
+  - first:
+      213: -6429643209763248107
+    second: Melware TileSet_451
+  - first:
+      213: 7068197704352891239
+    second: Melware TileSet_452
+  - first:
+      213: 3438773300507374729
+    second: Melware TileSet_453
+  - first:
+      213: -6591882897317433088
+    second: Melware TileSet_454
+  - first:
+      213: -304791278629075131
+    second: Melware TileSet_455
+  - first:
+      213: -3015384498326544534
+    second: Melware TileSet_456
+  - first:
+      213: -4188480626473947511
+    second: Melware TileSet_457
+  - first:
+      213: -2466277760634972321
+    second: Melware TileSet_458
+  - first:
+      213: -2929275473086488285
+    second: Melware TileSet_459
+  - first:
+      213: 785539798545635871
+    second: Melware TileSet_460
+  - first:
+      213: -5156954632270608205
+    second: Melware TileSet_461
+  - first:
+      213: -8881764881656300973
+    second: Melware TileSet_462
+  - first:
+      213: -1605086780195078573
+    second: Melware TileSet_463
+  - first:
+      213: -5424413961361574630
+    second: Melware TileSet_464
+  - first:
+      213: 2185206700899336514
+    second: Melware TileSet_465
+  - first:
+      213: -773696856587273422
+    second: Melware TileSet_466
+  - first:
+      213: 8314745788467349105
+    second: Melware TileSet_467
+  - first:
+      213: 492231708071183429
+    second: Melware TileSet_468
+  - first:
+      213: -5847787897290978839
+    second: Melware TileSet_469
+  - first:
+      213: -6984693365865446753
+    second: Melware TileSet_470
+  - first:
+      213: 4631567759651385337
+    second: Melware TileSet_471
+  - first:
+      213: 2091326312395421071
+    second: Melware TileSet_472
+  - first:
+      213: -5147948233613730385
+    second: Melware TileSet_473
+  - first:
+      213: -4197032991037441554
+    second: Melware TileSet_474
+  - first:
+      213: -9143859264715116505
+    second: Melware TileSet_475
+  - first:
+      213: -309719999289594076
+    second: Melware TileSet_476
+  - first:
+      213: -4147140075395245472
+    second: Melware TileSet_477
+  - first:
+      213: 4507486303015483415
+    second: Melware TileSet_478
+  - first:
+      213: -3121414795808695230
+    second: Melware TileSet_479
+  - first:
+      213: 3002987707408879753
+    second: Melware TileSet_480
+  - first:
+      213: -6356884334906592553
+    second: Melware TileSet_481
+  - first:
+      213: 8433738605981343212
+    second: Melware TileSet_482
+  - first:
+      213: 2035587539830069189
+    second: Melware TileSet_483
+  - first:
+      213: 7938232308165315012
+    second: Melware TileSet_484
+  - first:
+      213: -3931101598272083927
+    second: Melware TileSet_485
+  - first:
+      213: 5985841892632561767
+    second: Melware TileSet_486
+  - first:
+      213: 4510546177601279884
+    second: Melware TileSet_487
+  - first:
+      213: -2894475162970965459
+    second: Melware TileSet_488
+  - first:
+      213: -8686510900508052744
+    second: Melware TileSet_489
+  - first:
+      213: 1676038186277148367
+    second: Melware TileSet_490
+  - first:
+      213: -2599116832120972457
+    second: Melware TileSet_491
+  - first:
+      213: 2910163228646250758
+    second: Melware TileSet_492
+  - first:
+      213: -3704676761769746319
+    second: Melware TileSet_493
+  - first:
+      213: 1211247051642427208
+    second: Melware TileSet_494
+  - first:
+      213: 7141857933925669425
+    second: Melware TileSet_495
+  - first:
+      213: -4199541245911816283
+    second: Melware TileSet_496
+  - first:
+      213: 6580768958873546823
+    second: Melware TileSet_497
+  - first:
+      213: 5591364205598999288
+    second: Melware TileSet_498
+  - first:
+      213: -3898805939486007276
+    second: Melware TileSet_499
+  - first:
+      213: -273505534396801942
+    second: Melware TileSet_500
+  - first:
+      213: 5530917557648353472
+    second: Melware TileSet_501
+  - first:
+      213: 4815675523752184248
+    second: Melware TileSet_502
+  - first:
+      213: 3890754515327287548
+    second: Melware TileSet_503
+  - first:
+      213: -6730047423105266988
+    second: Melware TileSet_504
+  - first:
+      213: 9190710076401769657
+    second: Melware TileSet_505
+  - first:
+      213: 7119279833745699063
+    second: Melware TileSet_506
+  - first:
+      213: -6679386897492977845
+    second: Melware TileSet_507
+  - first:
+      213: 6796691314487181350
+    second: Melware TileSet_508
+  - first:
+      213: -7347712672265437341
+    second: Melware TileSet_509
+  - first:
+      213: 8499218824164027520
+    second: Melware TileSet_510
+  - first:
+      213: 1452543829300580800
+    second: Melware TileSet_511
+  - first:
+      213: 2569620904406253240
+    second: Melware TileSet_512
+  - first:
+      213: 3992475347028236641
+    second: Melware TileSet_513
+  - first:
+      213: 7997842780955709835
+    second: Melware TileSet_514
+  - first:
+      213: -7615544905993389493
+    second: Melware TileSet_515
+  - first:
+      213: -3522708063752419381
+    second: Melware TileSet_516
+  - first:
+      213: 5002111305908283513
+    second: Melware TileSet_517
+  - first:
+      213: -8897885646438668033
+    second: Melware TileSet_518
+  - first:
+      213: 6539500467507546280
+    second: Melware TileSet_519
+  - first:
+      213: -148853844890936127
+    second: Melware TileSet_520
+  - first:
+      213: -2417382854198335594
+    second: Melware TileSet_521
+  - first:
+      213: -9189026435463864687
+    second: Melware TileSet_522
+  - first:
+      213: 3272401101622594449
+    second: Melware TileSet_523
+  - first:
+      213: -565319093249393402
+    second: Melware TileSet_524
+  - first:
+      213: 9034875738094720638
+    second: Melware TileSet_525
+  - first:
+      213: -1177338468522854848
+    second: Melware TileSet_526
+  - first:
+      213: -6123719371650580829
+    second: Melware TileSet_527
+  - first:
+      213: 433726516348179940
+    second: Melware TileSet_528
+  - first:
+      213: 7006160635029526698
+    second: Melware TileSet_529
+  - first:
+      213: 2441680469186199064
+    second: Melware TileSet_530
+  - first:
+      213: -4277729919456068053
+    second: Melware TileSet_531
+  - first:
+      213: 569079805269123558
+    second: Melware TileSet_532
+  - first:
+      213: 8672106620993114828
+    second: Melware TileSet_533
+  - first:
+      213: -721912833527693143
+    second: Melware TileSet_534
+  - first:
+      213: -6324488557210088329
+    second: Melware TileSet_535
+  - first:
+      213: 431420413910005142
+    second: Melware TileSet_536
+  - first:
+      213: -2550700577017578147
+    second: Melware TileSet_537
+  - first:
+      213: 7645201232651507479
+    second: Melware TileSet_538
+  - first:
+      213: -5840365209161361299
+    second: Melware TileSet_539
+  - first:
+      213: -7948075697847519913
+    second: Melware TileSet_540
+  - first:
+      213: -21557951105790159
+    second: Melware TileSet_541
+  - first:
+      213: -3485422954560625250
+    second: Melware TileSet_542
+  - first:
+      213: 5083251057582953557
+    second: Melware TileSet_543
+  - first:
+      213: 3761836441038722996
+    second: Melware TileSet_544
+  - first:
+      213: 7730308774142250134
+    second: Melware TileSet_545
+  - first:
+      213: -6795909088283929619
+    second: Melware TileSet_546
+  - first:
+      213: 3463936486278183636
+    second: Melware TileSet_547
+  - first:
+      213: 2289014684722130479
+    second: Melware TileSet_548
+  - first:
+      213: -9150600766492113849
+    second: Melware TileSet_549
+  - first:
+      213: -2481839969249332136
+    second: Melware TileSet_550
+  - first:
+      213: 2163659219473939925
+    second: Melware TileSet_551
+  - first:
+      213: -7449517695987995996
+    second: Melware TileSet_552
+  - first:
+      213: -1988192470654315438
+    second: Melware TileSet_553
+  - first:
+      213: 1206961947625287448
+    second: Melware TileSet_554
+  - first:
+      213: 2184935401579934714
+    second: Melware TileSet_555
+  - first:
+      213: 7942477075978676646
+    second: Melware TileSet_556
+  - first:
+      213: 5621532253598938722
+    second: Melware TileSet_557
+  - first:
+      213: 7551945724433891289
+    second: Melware TileSet_558
+  - first:
+      213: 8700963184856404141
+    second: Melware TileSet_559
+  - first:
+      213: -500924949445516292
+    second: Melware TileSet_560
+  - first:
+      213: 7158479430870875654
+    second: Melware TileSet_561
+  - first:
+      213: 902314172751911052
+    second: Melware TileSet_562
+  - first:
+      213: -7134203226437700517
+    second: Melware TileSet_563
+  - first:
+      213: -8494951044060496520
+    second: Melware TileSet_564
+  - first:
+      213: -2452275903766190529
+    second: Melware TileSet_565
+  - first:
+      213: -3398791898025650300
+    second: Melware TileSet_566
+  - first:
+      213: -8407218950811133472
+    second: Melware TileSet_567
+  - first:
+      213: -4976484149798358349
+    second: Melware TileSet_568
+  - first:
+      213: -8116721464313926589
+    second: Melware TileSet_569
+  - first:
+      213: -7801794350438699596
+    second: Melware TileSet_570
+  - first:
+      213: -644138342125018041
+    second: Melware TileSet_571
+  - first:
+      213: -8780662591338947199
+    second: Melware TileSet_572
+  - first:
+      213: -6892530908361665027
+    second: Melware TileSet_573
+  - first:
+      213: -5628490214705375205
+    second: Melware TileSet_574
+  - first:
+      213: -2108130193239199788
+    second: Melware TileSet_575
+  - first:
+      213: 7680192731214734280
+    second: Melware TileSet_576
+  - first:
+      213: 7160599690071699297
+    second: Melware TileSet_577
+  - first:
+      213: 9221086766992464876
+    second: Melware TileSet_578
+  - first:
+      213: 6677948441585189636
+    second: Melware TileSet_579
+  - first:
+      213: -1893595336153639198
+    second: Melware TileSet_580
+  - first:
+      213: -133831022971739119
+    second: Melware TileSet_581
+  - first:
+      213: -7363298556433466064
+    second: Melware TileSet_582
+  - first:
+      213: -741809393595397497
+    second: Melware TileSet_583
+  - first:
+      213: -1418595358291037470
+    second: Melware TileSet_584
+  - first:
+      213: 2646754898856486158
+    second: Melware TileSet_585
+  - first:
+      213: -8586250669579484861
+    second: Melware TileSet_586
+  - first:
+      213: -6365659356531266866
+    second: Melware TileSet_587
+  - first:
+      213: -5160522034648800594
+    second: Melware TileSet_588
+  - first:
+      213: 568914347270297875
+    second: Melware TileSet_589
+  - first:
+      213: 6598217210400672535
+    second: Melware TileSet_590
+  - first:
+      213: -4856039027978117900
+    second: Melware TileSet_591
+  - first:
+      213: -6209270156344250884
+    second: Melware TileSet_592
+  - first:
+      213: 4399880422168178459
+    second: Melware TileSet_593
+  - first:
+      213: 8911862275426222095
+    second: Melware TileSet_594
+  - first:
+      213: 8760306111811084284
+    second: Melware TileSet_595
+  - first:
+      213: 471493763266253229
+    second: Melware TileSet_596
+  - first:
+      213: -3045354564837585360
+    second: Melware TileSet_597
+  - first:
+      213: 6014030793967207234
+    second: Melware TileSet_598
+  - first:
+      213: -8272261489260685921
+    second: Melware TileSet_599
+  - first:
+      213: 9043679155432155337
+    second: Melware TileSet_600
+  - first:
+      213: 1752032326247227580
+    second: Melware TileSet_601
+  - first:
+      213: 279860591446541174
+    second: Melware TileSet_602
+  - first:
+      213: -6682589495660478394
+    second: Melware TileSet_603
+  - first:
+      213: -5295238572421445702
+    second: Melware TileSet_604
+  - first:
+      213: -8079822877660062980
+    second: Melware TileSet_605
+  - first:
+      213: -8840281728386968477
+    second: Melware TileSet_606
+  - first:
+      213: 1059988582495795890
+    second: Melware TileSet_607
+  - first:
+      213: 8040822292604504771
+    second: Melware TileSet_608
+  - first:
+      213: 3501921552522190657
+    second: Melware TileSet_609
+  - first:
+      213: 1232996470182258747
+    second: Melware TileSet_610
+  - first:
+      213: 8055509324810209214
+    second: Melware TileSet_611
+  - first:
+      213: 5351866068645225416
+    second: Melware TileSet_612
+  - first:
+      213: -9098879494226756246
+    second: Melware TileSet_613
+  - first:
+      213: -4115847174958409212
+    second: Melware TileSet_614
+  - first:
+      213: -7432494854865593587
+    second: Melware TileSet_615
+  - first:
+      213: -4611038726518314598
+    second: Melware TileSet_616
+  - first:
+      213: -6939534010676253830
+    second: Melware TileSet_617
+  - first:
+      213: -8926942222743861079
+    second: Melware TileSet_618
+  - first:
+      213: -5025693745700334741
+    second: Melware TileSet_619
+  - first:
+      213: 1290158653883688626
+    second: Melware TileSet_620
+  - first:
+      213: 4872817444878627054
+    second: Melware TileSet_621
+  - first:
+      213: -5666436573498813740
+    second: Melware TileSet_622
+  - first:
+      213: 8076029389178776842
+    second: Melware TileSet_623
+  - first:
+      213: -7211950402309756100
+    second: Melware TileSet_624
+  - first:
+      213: 469960101714983323
+    second: Melware TileSet_625
+  - first:
+      213: 6259289077098777816
+    second: Melware TileSet_626
+  - first:
+      213: 5066863177519767654
+    second: Melware TileSet_627
+  - first:
+      213: 1620402552508775365
+    second: Melware TileSet_628
+  - first:
+      213: 3749242145111828990
+    second: Melware TileSet_629
+  - first:
+      213: 2598578067291271361
+    second: Melware TileSet_630
+  - first:
+      213: 3406561947144108156
+    second: Melware TileSet_631
+  - first:
+      213: -4351061513756980694
+    second: Melware TileSet_632
+  - first:
+      213: -5428690894328780212
+    second: Melware TileSet_633
+  - first:
+      213: -7197003562086965434
+    second: Melware TileSet_634
+  - first:
+      213: -1255795042691321547
+    second: Melware TileSet_635
+  - first:
+      213: -7160499345865711052
+    second: Melware TileSet_636
+  - first:
+      213: 4160209161208160313
+    second: Melware TileSet_637
+  - first:
+      213: -1957520179646964914
+    second: Melware TileSet_638
+  - first:
+      213: -59897011719359420
+    second: Melware TileSet_639
+  - first:
+      213: 4477160191364042203
+    second: Melware TileSet_640
+  - first:
+      213: -4893311312541550992
+    second: Melware TileSet_641
+  - first:
+      213: 5567993702489685819
+    second: Melware TileSet_642
+  - first:
+      213: -2189948631425966065
+    second: Melware TileSet_643
+  - first:
+      213: -3919887211606721904
+    second: Melware TileSet_644
+  - first:
+      213: -385769489882246922
+    second: Melware TileSet_645
+  - first:
+      213: 7141123715733929240
+    second: Melware TileSet_646
+  - first:
+      213: 8621201701945552668
+    second: Melware TileSet_647
+  - first:
+      213: 6256229045932252012
+    second: Melware TileSet_648
+  - first:
+      213: 1325826995084768639
+    second: Melware TileSet_649
+  - first:
+      213: -749824728281636337
+    second: Melware TileSet_650
+  - first:
+      213: 5828432435053436959
+    second: Melware TileSet_651
+  - first:
+      213: -3323948274041024641
+    second: Melware TileSet_652
+  - first:
+      213: 2525716479049708216
+    second: Melware TileSet_653
+  - first:
+      213: -1787252351471432100
+    second: Melware TileSet_654
+  - first:
+      213: 2873011037755541315
+    second: Melware TileSet_655
+  - first:
+      213: 7715646263568600300
+    second: Melware TileSet_656
+  - first:
+      213: -1421887031235774639
+    second: Melware TileSet_657
+  - first:
+      213: -8859198676412599680
+    second: Melware TileSet_658
+  - first:
+      213: 2396194234708217754
+    second: Melware TileSet_659
+  - first:
+      213: 6293713198840063173
+    second: Melware TileSet_660
+  - first:
+      213: 706018662385583688
+    second: Melware TileSet_661
+  - first:
+      213: 5819379154144708541
+    second: Melware TileSet_662
+  - first:
+      213: -2477926726272803781
+    second: Melware TileSet_663
+  - first:
+      213: 2865486510042992177
+    second: Melware TileSet_664
+  - first:
+      213: 7835520653859877312
+    second: Melware TileSet_665
+  - first:
+      213: -5604672677092643560
+    second: Melware TileSet_666
+  - first:
+      213: 3324737816059068339
+    second: Melware TileSet_667
+  - first:
+      213: -1081014728344309007
+    second: Melware TileSet_668
+  - first:
+      213: -4902294712500271447
+    second: Melware TileSet_669
+  - first:
+      213: -3666774714958643982
+    second: Melware TileSet_670
+  - first:
+      213: 7221108252831259756
+    second: Melware TileSet_671
+  - first:
+      213: 1103052579556192763
+    second: Melware TileSet_672
+  - first:
+      213: -6602747989001673364
+    second: Melware TileSet_673
+  - first:
+      213: 661900523280487355
+    second: Melware TileSet_674
+  - first:
+      213: -7889760576730834865
+    second: Melware TileSet_675
+  - first:
+      213: 4348712215597562126
+    second: Melware TileSet_676
+  - first:
+      213: 2113991675505000195
+    second: Melware TileSet_677
+  - first:
+      213: 463856403455023927
+    second: Melware TileSet_678
+  - first:
+      213: -4073379428674012948
+    second: Melware TileSet_679
+  - first:
+      213: 7311393195789191380
+    second: Melware TileSet_680
+  - first:
+      213: 3785348729293169393
+    second: Melware TileSet_681
+  - first:
+      213: 8461740867714150473
+    second: Melware TileSet_682
+  - first:
+      213: 8500225577637575787
+    second: Melware TileSet_683
+  - first:
+      213: -4209986831453226938
+    second: Melware TileSet_684
+  - first:
+      213: 3535557496068021673
+    second: Melware TileSet_685
+  - first:
+      213: 6258372453970754798
+    second: Melware TileSet_686
+  - first:
+      213: -5690618462212720260
+    second: Melware TileSet_687
+  - first:
+      213: -5314119424303326456
+    second: Melware TileSet_688
+  - first:
+      213: -5034966265801788442
+    second: Melware TileSet_689
+  - first:
+      213: 3442965540535526586
+    second: Melware TileSet_690
+  - first:
+      213: -492975785011452719
+    second: Melware TileSet_691
+  - first:
+      213: 6327151307281946949
+    second: Melware TileSet_692
+  - first:
+      213: -6481221314576500521
+    second: Melware TileSet_693
+  - first:
+      213: -8293648144076121808
+    second: Melware TileSet_694
+  - first:
+      213: -8189294138606572980
+    second: Melware TileSet_695
+  - first:
+      213: 8653631128525012136
+    second: Melware TileSet_696
+  - first:
+      213: -4810348441588004838
+    second: Melware TileSet_697
+  - first:
+      213: -697488404848361265
+    second: Melware TileSet_698
+  - first:
+      213: -8580322524220334218
+    second: Melware TileSet_699
+  - first:
+      213: -6900256630789138960
+    second: Melware TileSet_700
+  - first:
+      213: 5634736652211395801
+    second: Melware TileSet_701
+  - first:
+      213: -4342357492430178074
+    second: Melware TileSet_702
+  - first:
+      213: -5368001641944239865
+    second: Melware TileSet_703
+  - first:
+      213: 4864259874238633001
+    second: Melware TileSet_704
+  - first:
+      213: 1298947365662801936
+    second: Melware TileSet_705
+  - first:
+      213: 1604868201645005189
+    second: Melware TileSet_706
+  - first:
+      213: -1332711477290304036
+    second: Melware TileSet_707
+  - first:
+      213: 6462066108230383583
+    second: Melware TileSet_708
+  - first:
+      213: -1082282084014648804
+    second: Melware TileSet_709
+  - first:
+      213: -8506008870823894038
+    second: Melware TileSet_710
+  - first:
+      213: -293780389745733667
+    second: Melware TileSet_711
+  - first:
+      213: 3054597491941559375
+    second: Melware TileSet_712
+  - first:
+      213: -3952312004970458228
+    second: Melware TileSet_713
+  - first:
+      213: 7379005833002590787
+    second: Melware TileSet_714
+  - first:
+      213: 7650999056698611269
+    second: Melware TileSet_715
+  - first:
+      213: 7407523719171937886
+    second: Melware TileSet_716
+  - first:
+      213: -5736588014814702068
+    second: Melware TileSet_717
+  - first:
+      213: -5647277234433441464
+    second: Melware TileSet_718
+  - first:
+      213: 3229823615980875203
+    second: Melware TileSet_719
+  - first:
+      213: 2141417881107288164
+    second: Melware TileSet_720
+  - first:
+      213: -128515810303408546
+    second: Melware TileSet_721
+  - first:
+      213: 6946871181219708439
+    second: Melware TileSet_722
+  - first:
+      213: 4336893977396720677
+    second: Melware TileSet_723
+  - first:
+      213: 938232270204506952
+    second: Melware TileSet_724
+  - first:
+      213: 7826032346599228815
+    second: Melware TileSet_725
+  - first:
+      213: -3490218111177949389
+    second: Melware TileSet_726
+  - first:
+      213: -3296147987571560706
+    second: Melware TileSet_727
+  - first:
+      213: -2326602338200210025
+    second: Melware TileSet_728
+  - first:
+      213: 5105890647420093208
+    second: Melware TileSet_729
+  - first:
+      213: 2418111091469108915
+    second: Melware TileSet_730
+  - first:
+      213: 8042114009117445548
+    second: Melware TileSet_731
+  - first:
+      213: -6896919054109030752
+    second: Melware TileSet_732
+  - first:
+      213: 977902320007278469
+    second: Melware TileSet_733
+  - first:
+      213: 7674243622951362871
+    second: Melware TileSet_734
+  - first:
+      213: 848815757326169864
+    second: Melware TileSet_735
+  - first:
+      213: 4245736234196809600
+    second: Melware TileSet_736
+  - first:
+      213: -526992204510753694
+    second: Melware TileSet_737
+  - first:
+      213: 2600348264098944420
+    second: Melware TileSet_738
+  - first:
+      213: 5278170465257484511
+    second: Melware TileSet_739
+  - first:
+      213: -4560943746636916559
+    second: Melware TileSet_740
+  - first:
+      213: 2517371666140900996
+    second: Melware TileSet_741
+  - first:
+      213: -8907121188713968127
+    second: Melware TileSet_742
+  - first:
+      213: -6199388118538662672
+    second: Melware TileSet_743
+  - first:
+      213: -3193134645361624929
+    second: Melware TileSet_744
+  - first:
+      213: 997613101436847773
+    second: Melware TileSet_745
+  - first:
+      213: 5573862944474274253
+    second: Melware TileSet_746
+  - first:
+      213: -9028462563978389910
+    second: Melware TileSet_747
+  - first:
+      213: 6760285991806040581
+    second: Melware TileSet_748
+  - first:
+      213: -7906684348630104043
+    second: Melware TileSet_749
+  - first:
+      213: 2996968393105616317
+    second: Melware TileSet_750
+  - first:
+      213: 5126094130781113058
+    second: Melware TileSet_751
+  - first:
+      213: 1616929121716937439
+    second: Melware TileSet_752
+  - first:
+      213: 2923506219058583436
+    second: Melware TileSet_753
+  - first:
+      213: -879565028922393199
+    second: Melware TileSet_754
+  - first:
+      213: 2710705365157213042
+    second: Melware TileSet_755
+  - first:
+      213: -1988437403934327894
+    second: Melware TileSet_756
+  - first:
+      213: -4865500487845927420
+    second: Melware TileSet_757
+  - first:
+      213: 2374164566952583897
+    second: Melware TileSet_758
+  - first:
+      213: -8655653108063554807
+    second: Melware TileSet_759
+  - first:
+      213: 5186656877022108811
+    second: Melware TileSet_760
+  - first:
+      213: 731579650367087284
+    second: Melware TileSet_761
+  - first:
+      213: -5655935793539258608
+    second: Melware TileSet_762
+  - first:
+      213: 8775831646175482872
+    second: Melware TileSet_763
+  - first:
+      213: 390703788841681592
+    second: Melware TileSet_764
+  - first:
+      213: 1493455905318260089
+    second: Melware TileSet_765
+  - first:
+      213: 4377038695248172931
+    second: Melware TileSet_766
+  - first:
+      213: 6010594557132401695
+    second: Melware TileSet_767
+  - first:
+      213: -2970840238118467967
+    second: Melware TileSet_768
+  - first:
+      213: 4079327712384273099
+    second: Melware TileSet_769
+  - first:
+      213: -3909139953549200669
+    second: Melware TileSet_770
+  - first:
+      213: -4814239189924170758
+    second: Melware TileSet_771
+  - first:
+      213: -655000528336491720
+    second: Melware TileSet_772
+  - first:
+      213: -5804191073323731988
+    second: Melware TileSet_773
+  - first:
+      213: 7644946039399433670
+    second: Melware TileSet_774
+  - first:
+      213: 5993109148126562928
+    second: Melware TileSet_775
+  - first:
+      213: -2221245435816291718
+    second: Melware TileSet_776
+  - first:
+      213: -3513096331995031350
+    second: Melware TileSet_777
+  - first:
+      213: -3969284314018243957
+    second: Melware TileSet_778
+  - first:
+      213: -1497299296328754983
+    second: Melware TileSet_779
+  - first:
+      213: -7603445303758983227
+    second: Melware TileSet_780
+  - first:
+      213: 8533725424506611313
+    second: Melware TileSet_781
+  - first:
+      213: -2484513705036889111
+    second: Melware TileSet_782
+  - first:
+      213: -5671922770456694191
+    second: Melware TileSet_783
+  - first:
+      213: 4974533144635602273
+    second: Melware TileSet_784
+  - first:
+      213: -2573798851691752556
+    second: Melware TileSet_785
+  - first:
+      213: -3014243440411973214
+    second: Melware TileSet_786
+  - first:
+      213: -2844508433041682720
+    second: Melware TileSet_787
+  - first:
+      213: -517275551115309060
+    second: Melware TileSet_788
+  - first:
+      213: 8407452819646417053
+    second: Melware TileSet_789
+  - first:
+      213: 3422844240018130049
+    second: Melware TileSet_790
+  - first:
+      213: -2959316177758770434
+    second: Melware TileSet_791
+  - first:
+      213: 4457341785699482593
+    second: Melware TileSet_792
+  - first:
+      213: -3074221218442368315
+    second: Melware TileSet_793
+  - first:
+      213: 9214398056994987791
+    second: Melware TileSet_794
+  - first:
+      213: 7623519211708908837
+    second: Melware TileSet_795
+  - first:
+      213: -1586743660315936895
+    second: Melware TileSet_796
+  - first:
+      213: 7212980720841984419
+    second: Melware TileSet_797
+  - first:
+      213: -3420227969969864470
+    second: Melware TileSet_798
+  - first:
+      213: 4699351530498893325
+    second: Melware TileSet_799
+  - first:
+      213: -264315411164997604
+    second: Melware TileSet_800
+  - first:
+      213: -6679601733649004965
+    second: Melware TileSet_801
+  - first:
+      213: -2360817673917078520
+    second: Melware TileSet_802
+  - first:
+      213: 8890176580846441685
+    second: Melware TileSet_803
+  - first:
+      213: -356145734454415431
+    second: Melware TileSet_804
+  - first:
+      213: 2770803523068798967
+    second: Melware TileSet_805
+  - first:
+      213: 1360489411946237581
+    second: Melware TileSet_806
+  - first:
+      213: -5202250963145028000
+    second: Melware TileSet_807
+  - first:
+      213: -5479823349179939055
+    second: Melware TileSet_808
+  - first:
+      213: 6773112657459108158
+    second: Melware TileSet_809
+  - first:
+      213: 5460947012599008622
+    second: Melware TileSet_810
+  - first:
+      213: 2181920113586873808
+    second: Melware TileSet_811
+  - first:
+      213: 7862618472700981172
+    second: Melware TileSet_812
+  - first:
+      213: 3772945493592584715
+    second: Melware TileSet_813
+  - first:
+      213: 7191110219918981328
+    second: Melware TileSet_814
+  - first:
+      213: -244148733381956247
+    second: Melware TileSet_815
+  - first:
+      213: -8429754794792273241
+    second: Melware TileSet_816
+  - first:
+      213: -3828492789359367873
+    second: Melware TileSet_817
+  - first:
+      213: -7806642134108113867
+    second: Melware TileSet_818
+  - first:
+      213: -123317583017151092
+    second: Melware TileSet_819
+  - first:
+      213: 3441167140404142454
+    second: Melware TileSet_820
+  - first:
+      213: -2673399728186571085
+    second: Melware TileSet_821
+  - first:
+      213: 7703434791507801093
+    second: Melware TileSet_822
+  - first:
+      213: -3237804945644827629
+    second: Melware TileSet_823
+  - first:
+      213: 6361361327737462950
+    second: Melware TileSet_824
+  - first:
+      213: 3925740145555933601
+    second: Melware TileSet_825
+  - first:
+      213: -4611959356462492984
+    second: Melware TileSet_826
+  - first:
+      213: -8740403990733196241
+    second: Melware TileSet_827
+  - first:
+      213: -5130266464893546106
+    second: Melware TileSet_828
+  - first:
+      213: 9194548528188266385
+    second: Melware TileSet_829
+  - first:
+      213: -3707863120051359119
+    second: Melware TileSet_830
+  - first:
+      213: 5074163849677059680
+    second: Melware TileSet_831
+  - first:
+      213: 7900942537338588929
+    second: Melware TileSet_832
+  - first:
+      213: 434686326003702403
+    second: Melware TileSet_833
+  - first:
+      213: 8794874822885208481
+    second: Melware TileSet_834
+  - first:
+      213: -7605105600048662354
+    second: Melware TileSet_835
+  - first:
+      213: 2459526697203730829
+    second: Melware TileSet_836
+  - first:
+      213: 3047830619438444126
+    second: Melware TileSet_837
+  - first:
+      213: -9181867600595037379
+    second: Melware TileSet_838
+  - first:
+      213: 3433698716848630346
+    second: Melware TileSet_839
+  - first:
+      213: -1925298659325911429
+    second: Melware TileSet_840
+  - first:
+      213: -2357409519257367429
+    second: Melware TileSet_841
+  - first:
+      213: -7521226531998183181
+    second: Melware TileSet_842
+  - first:
+      213: 9012768028161178916
+    second: Melware TileSet_843
+  - first:
+      213: 8696433568465848387
+    second: Melware TileSet_844
+  - first:
+      213: -8269856498429415195
+    second: Melware TileSet_845
+  - first:
+      213: 6245819932039530211
+    second: Melware TileSet_846
+  - first:
+      213: -2103400188278649878
+    second: Melware TileSet_847
+  - first:
+      213: -4638832901642449926
+    second: Melware TileSet_848
+  - first:
+      213: -3685661998574259688
+    second: Melware TileSet_849
+  - first:
+      213: 4513040502502294611
+    second: Melware TileSet_850
+  - first:
+      213: -7034085703030500575
+    second: Melware TileSet_851
+  - first:
+      213: -8355475925220052574
+    second: Melware TileSet_852
+  - first:
+      213: 4855065984430793072
+    second: Melware TileSet_853
+  - first:
+      213: 5390420023045678137
+    second: Melware TileSet_854
+  - first:
+      213: 849339292538450793
+    second: Melware TileSet_855
+  - first:
+      213: 9174375696554767298
+    second: Melware TileSet_856
+  - first:
+      213: -7977016959136398463
+    second: Melware TileSet_857
+  - first:
+      213: -493189561718225743
+    second: Melware TileSet_858
+  - first:
+      213: -455494838708444394
+    second: Melware TileSet_859
+  - first:
+      213: -6495073351723099540
+    second: Melware TileSet_860
+  - first:
+      213: 4769750246507242818
+    second: Melware TileSet_861
+  - first:
+      213: -8203957281840215268
+    second: Melware TileSet_862
+  - first:
+      213: 4911277837804638035
+    second: Melware TileSet_863
+  - first:
+      213: 4407412390591012020
+    second: Melware TileSet_864
+  - first:
+      213: -1772060038581731374
+    second: Melware TileSet_865
+  - first:
+      213: -336693734858278104
+    second: Melware TileSet_866
+  - first:
+      213: -2215465120867092428
+    second: Melware TileSet_867
+  - first:
+      213: -1370992547430853163
+    second: Melware TileSet_868
+  - first:
+      213: -3145456738752395607
+    second: Melware TileSet_869
+  - first:
+      213: 2992386408381248891
+    second: Melware TileSet_870
+  - first:
+      213: -3162433412521593627
+    second: Melware TileSet_871
+  - first:
+      213: 2960003402992259697
+    second: Melware TileSet_872
+  - first:
+      213: -1662866784219844068
+    second: Melware TileSet_873
+  - first:
+      213: -1045272536055192414
+    second: Melware TileSet_874
+  - first:
+      213: 3063635601497050946
+    second: Melware TileSet_875
+  - first:
+      213: -7520444654510276178
+    second: Melware TileSet_876
+  - first:
+      213: 4224037532072472279
+    second: Melware TileSet_877
+  - first:
+      213: 963536536163185289
+    second: Melware TileSet_878
+  - first:
+      213: -5656112716750463113
+    second: Melware TileSet_879
+  - first:
+      213: 8095358928767185227
+    second: Melware TileSet_880
+  - first:
+      213: -3096356807100786495
+    second: Melware TileSet_881
+  - first:
+      213: 8412675705874936841
+    second: Melware TileSet_882
+  - first:
+      213: -1150449712201975866
+    second: Melware TileSet_883
+  - first:
+      213: 8251668658563273344
+    second: Melware TileSet_884
+  - first:
+      213: -2004422083536216445
+    second: Melware TileSet_885
+  - first:
+      213: -4669662306508654332
+    second: Melware TileSet_886
+  - first:
+      213: 4405551651625845466
+    second: Melware TileSet_887
+  - first:
+      213: 8467952784203019913
+    second: Melware TileSet_888
+  - first:
+      213: -8326300025111503100
+    second: Melware TileSet_889
+  - first:
+      213: -1548681369381807648
+    second: Melware TileSet_890
+  - first:
+      213: 2956576109198381990
+    second: Melware TileSet_891
+  - first:
+      213: -2365481488895354298
+    second: Melware TileSet_892
+  - first:
+      213: -1389422263469114711
+    second: Melware TileSet_893
+  - first:
+      213: 4731603981014493888
+    second: Melware TileSet_894
+  - first:
+      213: -6699517823318026820
+    second: Melware TileSet_895
+  - first:
+      213: 1906854814615520112
+    second: Melware TileSet_896
+  - first:
+      213: -6191809049532645818
+    second: Melware TileSet_897
+  - first:
+      213: 5128662021175402898
+    second: Melware TileSet_898
+  - first:
+      213: -2500907997998382183
+    second: Melware TileSet_899
+  - first:
+      213: -529247369858492348
+    second: Melware TileSet_900
+  - first:
+      213: 6655433550719441460
+    second: Melware TileSet_901
+  - first:
+      213: -4684684236668948582
+    second: Melware TileSet_902
+  - first:
+      213: -7722395817514077726
+    second: Melware TileSet_903
+  - first:
+      213: -898996790812401327
+    second: Melware TileSet_904
+  - first:
+      213: -3506542533655095470
+    second: Melware TileSet_905
+  - first:
+      213: 1651788579474940145
+    second: Melware TileSet_906
+  - first:
+      213: 499765823571764432
+    second: Melware TileSet_907
+  - first:
+      213: 2296949157992733989
+    second: Melware TileSet_908
+  - first:
+      213: 7340289192539969028
+    second: Melware TileSet_909
+  - first:
+      213: -3278332097219419570
+    second: Melware TileSet_910
+  - first:
+      213: 4343239415657551030
+    second: Melware TileSet_911
+  - first:
+      213: -3616630739481611314
+    second: Melware TileSet_912
+  - first:
+      213: -8604639404730061674
+    second: Melware TileSet_913
+  - first:
+      213: 6961189036649709128
+    second: Melware TileSet_914
+  - first:
+      213: 4303704302515364837
+    second: Melware TileSet_915
+  - first:
+      213: -6543904939254025781
+    second: Melware TileSet_916
+  - first:
+      213: -7384229186584533525
+    second: Melware TileSet_917
+  - first:
+      213: -8523123286702903266
+    second: Melware TileSet_918
+  - first:
+      213: -7973790206425496758
+    second: Melware TileSet_919
+  - first:
+      213: -6263870378829289269
+    second: Melware TileSet_920
+  - first:
+      213: 3119248748261062273
+    second: Melware TileSet_921
+  - first:
+      213: -2998884828584747452
+    second: Melware TileSet_922
+  - first:
+      213: -229518525708985456
+    second: Melware TileSet_923
+  - first:
+      213: 322133550330341352
+    second: Melware TileSet_924
+  - first:
+      213: -4700263804103802179
+    second: Melware TileSet_925
+  - first:
+      213: -7546031596846994382
+    second: Melware TileSet_926
+  - first:
+      213: 3845171972901255621
+    second: Melware TileSet_927
+  - first:
+      213: -8155335786390084772
+    second: Melware TileSet_928
+  - first:
+      213: 7820318191529661157
+    second: Melware TileSet_929
+  - first:
+      213: -6331822230142255855
+    second: Melware TileSet_930
+  - first:
+      213: 6825175383345518546
+    second: Melware TileSet_931
+  - first:
+      213: 3802816301652937145
+    second: Melware TileSet_932
+  - first:
+      213: -5608394983453397377
+    second: Melware TileSet_933
+  - first:
+      213: -3711247285281911023
+    second: Melware TileSet_934
+  - first:
+      213: -318344841228933418
+    second: Melware TileSet_935
+  - first:
+      213: 5788080680963280016
+    second: Melware TileSet_936
+  - first:
+      213: -2795402087829963925
+    second: Melware TileSet_937
+  - first:
+      213: 3682506476517522941
+    second: Melware TileSet_938
+  - first:
+      213: 4675901704726096328
+    second: Melware TileSet_939
+  - first:
+      213: -2813595535769884895
+    second: Melware TileSet_940
+  - first:
+      213: 7433123722902630970
+    second: Melware TileSet_941
+  - first:
+      213: -4642808552326960824
+    second: Melware TileSet_942
+  - first:
+      213: 4055240959284282899
+    second: Melware TileSet_943
+  - first:
+      213: 6922659962245512308
+    second: Melware TileSet_944
+  - first:
+      213: 5229130849179047207
+    second: Melware TileSet_945
+  - first:
+      213: 7663710777083374408
+    second: Melware TileSet_946
+  - first:
+      213: -5565272645561766980
+    second: Melware TileSet_947
+  - first:
+      213: 4520135962734666723
+    second: Melware TileSet_948
+  - first:
+      213: -6399691756366856540
+    second: Melware TileSet_949
+  - first:
+      213: 1307287995662579630
+    second: Melware TileSet_950
+  - first:
+      213: 3890064699374579039
+    second: Melware TileSet_951
+  - first:
+      213: -3316320441425661354
+    second: Melware TileSet_952
+  - first:
+      213: -6230792004982289491
+    second: Melware TileSet_953
+  - first:
+      213: 3809377726876783704
+    second: Melware TileSet_954
+  - first:
+      213: 3437990082195083423
+    second: Melware TileSet_955
+  - first:
+      213: -8628033881090254183
+    second: Melware TileSet_956
+  - first:
+      213: -8679094014440882653
+    second: Melware TileSet_957
+  - first:
+      213: -3691513446620495494
+    second: Melware TileSet_958
+  - first:
+      213: -3118922911214423125
+    second: Melware TileSet_959
+  - first:
+      213: -4565294869277478868
+    second: Melware TileSet_960
+  - first:
+      213: -3239049393923142477
+    second: Melware TileSet_961
+  - first:
+      213: 6573235158020111558
+    second: Melware TileSet_962
+  - first:
+      213: -6906898348699304711
+    second: Melware TileSet_963
+  - first:
+      213: 5252673103197953985
+    second: Melware TileSet_964
+  - first:
+      213: -8858571850045931877
+    second: Melware TileSet_965
+  - first:
+      213: 5849561776746113506
+    second: Melware TileSet_966
+  - first:
+      213: 7913623618201380349
+    second: Melware TileSet_967
+  - first:
+      213: 7568203379554666214
+    second: Melware TileSet_968
+  - first:
+      213: -8652991353488248253
+    second: Melware TileSet_969
+  - first:
+      213: -4405257326530262742
+    second: Melware TileSet_970
+  - first:
+      213: 1843343991017686806
+    second: Melware TileSet_971
+  - first:
+      213: 374693633009795822
+    second: Melware TileSet_972
+  - first:
+      213: 4979140769222253240
+    second: Melware TileSet_973
+  - first:
+      213: 4030105433426541512
+    second: Melware TileSet_974
+  - first:
+      213: -4893968071890408875
+    second: Melware TileSet_975
+  - first:
+      213: 1022791533398074984
+    second: Melware TileSet_976
+  - first:
+      213: -5205334535113801676
+    second: Melware TileSet_977
+  - first:
+      213: -5382568577223495393
+    second: Melware TileSet_978
+  - first:
+      213: -6957378493844786940
+    second: Melware TileSet_979
+  - first:
+      213: -9078043127657227436
+    second: Melware TileSet_980
+  - first:
+      213: 1600269017122076911
+    second: Melware TileSet_981
+  - first:
+      213: 8007651021959123282
+    second: Melware TileSet_982
+  - first:
+      213: 4638302215684751346
+    second: Melware TileSet_983
+  - first:
+      213: -1665053289874942358
+    second: Melware TileSet_984
+  - first:
+      213: -6510004709077376612
+    second: Melware TileSet_985
+  - first:
+      213: -166868045937189038
+    second: Melware TileSet_986
+  - first:
+      213: 7221223941780042998
+    second: Melware TileSet_987
+  - first:
+      213: 3895309451523216185
+    second: Melware TileSet_988
+  - first:
+      213: -8450689051839255948
+    second: Melware TileSet_989
+  - first:
+      213: -428612607363664581
+    second: Melware TileSet_990
+  - first:
+      213: -2603980621288245611
+    second: Melware TileSet_991
+  - first:
+      213: -501398363602821158
+    second: Melware TileSet_992
+  - first:
+      213: 907479851988282740
+    second: Melware TileSet_993
+  - first:
+      213: -8798202679498325796
+    second: Melware TileSet_994
+  - first:
+      213: -6181609817002390876
+    second: Melware TileSet_995
+  - first:
+      213: -2769325410611505757
+    second: Melware TileSet_996
+  - first:
+      213: -1830983864911922590
+    second: Melware TileSet_997
+  - first:
+      213: 7034295001853017322
+    second: Melware TileSet_998
+  - first:
+      213: 1557362142454686256
+    second: Melware TileSet_999
+  - first:
+      213: -6338267619044858243
+    second: Melware TileSet_1000
+  - first:
+      213: -31498632939876762
+    second: Melware TileSet_1001
+  - first:
+      213: 8936586996185750477
+    second: Melware TileSet_1002
+  - first:
+      213: -2929394918064352139
+    second: Melware TileSet_1003
+  - first:
+      213: -8564949337806108155
+    second: Melware TileSet_1004
+  - first:
+      213: 5195447956140598103
+    second: Melware TileSet_1005
+  - first:
+      213: 4281824261052339469
+    second: Melware TileSet_1006
+  - first:
+      213: 4769163831537494733
+    second: Melware TileSet_1007
+  - first:
+      213: -6068251905153985576
+    second: Melware TileSet_1008
+  - first:
+      213: 8178779604609061261
+    second: Melware TileSet_1009
+  - first:
+      213: 2287513904481164301
+    second: Melware TileSet_1010
+  - first:
+      213: -7329523420929094696
+    second: Melware TileSet_1011
+  - first:
+      213: 7865682738044863842
+    second: Melware TileSet_1012
+  - first:
+      213: -4731634682701398046
+    second: Melware TileSet_1013
+  - first:
+      213: -4316013597204244517
+    second: Melware TileSet_1014
+  - first:
+      213: 3127941943420222481
+    second: Melware TileSet_1015
+  - first:
+      213: 7814754943593582411
+    second: Melware TileSet_1016
+  - first:
+      213: -8898711923410589854
+    second: Melware TileSet_1017
+  - first:
+      213: -5670390583505824521
+    second: Melware TileSet_1018
+  - first:
+      213: -8967458711760538416
+    second: Melware TileSet_1019
+  - first:
+      213: 6739629988842863245
+    second: Melware TileSet_1020
+  - first:
+      213: 1255739125649991142
+    second: Melware TileSet_1021
+  - first:
+      213: -7735543719497414413
+    second: Melware TileSet_1022
+  - first:
+      213: 8281937971001762847
+    second: Melware TileSet_1023
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Top
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccf3e6c89c6b3770800000000000000
+      internalID: 8591580117567012038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 33
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79126abac664b800800000000000000
+      internalID: 627239269007759738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 33
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecac21bcf7422ab90800000000000000
+      internalID: -7232177920317142322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 33
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea71235de80963b0800000000000000
+      internalID: -5518870052970857756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Left
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 33
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3132dd60d06a35fa0800000000000000
+      internalID: -5813120119125236973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom-Left
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 33
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b711ccefaa5236a00800000000000000
+      internalID: 748483379423089019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom-Right
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 33
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c31a3e60497ef80800000000000000
+      internalID: -8077324649355985811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom-Left Inner
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 33
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39a01bb07abdbd20800000000000000
+      internalID: 3295995495642605883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom-Right Inner
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 33
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7979faa91447110800000000000000
+      internalID: 1257702328569927634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Right
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d2177ce10a26180800000000000000
+      internalID: -9123553841043657447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Left Thin
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa09be0a0ac5032f0800000000000000
+      internalID: -995193672684564305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom-Left Thin
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b623d557e92e784b0800000000000000
+      internalID: -5438128854824832405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom-Right Thin
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c58b1f008cd5e920800000000000000
+      internalID: 3019061567789172168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Right Thin
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa602f49de5e4e600800000000000000
+      internalID: 496774667486496431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empty Tile
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28da762f51a24db00800000000000000
+      internalID: 852352503229427074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decor
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f5f2de1a2e245b0800000000000000
+      internalID: -5385493019284775104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Right Inner
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e863bf8823062760800000000000000
+      internalID: 7432631707766057190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Left Inner
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490458e75bdb5d760800000000000000
+      internalID: 7482094943155339412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

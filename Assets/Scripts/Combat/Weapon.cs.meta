@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 26e6da27e1c2f774bb908ad059090d1c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - muzzFlash: {fileID: 8092615506543658870, guid: 836cfe00f6e2a0b4f93ca64a9c27e548, type: 3}
+  - projectile: {fileID: 7560619352479132827, guid: 3011e8baf68951244a84d1f7a945cb57, type: 3}
+  - shotPoint: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

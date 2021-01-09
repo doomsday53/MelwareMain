@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class PangBoss : MonoBehaviour
 {
@@ -14,11 +15,11 @@ public class PangBoss : MonoBehaviour
     //private float timeBtwDamage = 1.5f;
     public Text healthText;
     public bool isActing = false;
-    public Vector3 startpos;
-    public Vector3 endpos;
+    public Transform posA;
+    public Transform posB;
     public float duration = 5;
-    private float time;
     public Animator anim;
+    public AttackType attackType;
     private void Start()
     {
         healthText = GameObject.Find("PangText").GetComponent<Text>();
@@ -40,18 +41,18 @@ public class PangBoss : MonoBehaviour
                 anim.Play("Death");
                 StartCoroutine(waitForDeath());
             }
-            i = Random.Range(0, 4);
-            if (i == 0)
+            attackType = (AttackType)UnityEngine.Random.Range(0,Enum.GetValues(typeof (AttackType)).Length);
+            if (attackType == AttackType.Idle)
             {
                 anim.Play("Idle");
                 StartCoroutine(WaitForAnim());
             }
-            else if (i == 1)
+            else if (attackType == AttackType.Roll)
             {
                 anim.Play("Roll");
                 StartCoroutine(WaitForRoll());
             }
-            else if (i == 2)
+            else if (attackType == AttackType.Slash)
             {
                 anim.Play("Slash");
                 StartCoroutine(WaitForAnim());
@@ -61,6 +62,7 @@ public class PangBoss : MonoBehaviour
                 anim.Play("Flip");
                 StartCoroutine(WaitForAnim());
             }
+            Debug.Log(i);
         }
         
 
@@ -115,23 +117,67 @@ public class PangBoss : MonoBehaviour
 
     public IEnumerator WaitForRoll()
     {
-        isActing = true;
-        Vector3 startingPos = transform.position;
-        while(time < 5)
+        float distanceA = Vector3.Distance(transform.position, posA.position);
+        float distanceB = Vector3.Distance(transform.position, posB.position);
+        if (distanceA < distanceB)
         {
-            time += 1;
-            Vector3.Lerp(startingPos, endpos, duration);
-            yield return null;
+            float timeUp = distanceA * 0.17f;
+            float time = 0;
+            isActing = true;
+            Vector3 startingPos = transform.position;
+            while (time < timeUp)
+            {
+                time += Time.deltaTime;
+                transform.position = Vector3.Lerp(startingPos, posA.position, time / timeUp);
+                yield return null;
+            }
+            time = 0;
+            startingPos = transform.position;
+            while (time < duration)
+            {
+                time += Time.deltaTime;
+                transform.position = Vector3.Lerp(startingPos, posB.position, time / duration);
+                yield return null;
+            }
+            time = 0;
+            startingPos = transform.position;
+            while (time < duration)
+            {
+                time += Time.deltaTime;
+                transform.position = Vector3.Lerp(startingPos, posA.position, time / duration);
+                yield return null;
+            }
         }
-        time = 0;
-        startingPos = transform.position;
-        while (time < 5)
+        else
         {
-            time += 1;
-            Vector3.Lerp(startingPos, startpos, duration);
-            yield return null;
+            float timeUp = distanceB * 0.17f;
+            float time = 0;
+            isActing = true;
+            Vector3 startingPos = transform.position;
+            while (time < timeUp)
+            {
+                time += Time.deltaTime;
+                transform.position = Vector3.Lerp(startingPos, posB.position, time / timeUp);
+                yield return null;
+            }
+            time = 0;
+            startingPos = transform.position;
+            while (time < duration)
+            {
+                time += Time.deltaTime;
+                transform.position = Vector3.Lerp(startingPos, posA.position, time / duration);
+                yield return null;
+            }
+            time = 0;
+            startingPos = transform.position;
+            while (time < duration)
+            {
+                time += Time.deltaTime;
+                transform.position = Vector3.Lerp(startingPos, posB.position, time / duration);
+                yield return null;
+            }
         }
-        time = 0;
+        
         isActing = false;
     }
 
@@ -141,5 +187,12 @@ public class PangBoss : MonoBehaviour
         yield return new WaitForSeconds(3);
         gameObject.SetActive(false);
         isActing = false;
+    }
+    public enum AttackType
+    {
+        Roll,
+        Idle,
+        Slash,
+        Flip
     }
 }

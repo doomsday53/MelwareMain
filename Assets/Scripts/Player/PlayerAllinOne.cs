@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerAllinOne : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class PlayerAllinOne : MonoBehaviour
     public float defaultSpeed;
     public float dashSpeed;
     public bool canDash;
+    public bool canMove;
 
     //Jump Variables
     public float jumpForce;
@@ -43,15 +45,24 @@ public class PlayerAllinOne : MonoBehaviour
     private PlayerSpawn playerSpawn;
     private Animator anim;
 
+    //Scenes
+    public int sceneIndex;
+    private Scene mainScene;
 
-    // Start is called before the first frame update
-    void Start()
+// Start is called before the first frame update
+    void OnEnable()
     {
         rb = GetComponent<Rigidbody2D>();
         healthText = GameObject.Find("HealthText").GetComponent<Text>();
         playerSpawn = GameObject.FindGameObjectWithTag(playerSpawnTag).GetComponent<PlayerSpawn>();
         healthText.text = health + "/" + maxHealth;
         anim = GetComponent<Animator>();
+        mainScene = SceneManager.GetActiveScene();
+        sceneIndex = mainScene.buildIndex;
+        if (sceneIndex > 2)
+        {
+            canMove = true;
+        }
     }
 
     // Update is called once per frame
@@ -69,56 +80,62 @@ public class PlayerAllinOne : MonoBehaviour
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
 
-        if (moveInput > 0)
+        if (canMove)
         {
-            transform.eulerAngles = new Vector3(0, 0, 0);
-            anim.SetBool("isRunning", true);
-        }
-        else if (moveInput < 0)
-        {
-            transform.eulerAngles = new Vector3(0, 180, 0);
-            anim.SetBool("isRunning", true);
-        }
-        else
-        {
-            anim.SetBool("isRunning", false);
-        }
-
-        if (isGrounded == true && Input.GetKeyDown(KeyCode.Space))
-        {
-            isJumping = true;
-            anim.SetTrigger("Jump");
-            jumpTimeCounter = jumpTime;
-            rb.velocity = Vector2.up * jumpForce;
-
-        }
-
-        if (Input.GetKey(KeyCode.Space) && isJumping == true)
-        {
-            if (jumpTimeCounter > 0)
+            if (moveInput > 0)
             {
-                rb.velocity = Vector2.up * jumpForce;
-                jumpTimeCounter -= Time.deltaTime;
+                transform.eulerAngles = new Vector3(0, 0, 0);
+                anim.SetBool("isRunning", true);
+            }
+            else if (moveInput < 0)
+            {
+                transform.eulerAngles = new Vector3(0, 180, 0);
+                anim.SetBool("isRunning", true);
             }
             else
             {
+                anim.SetBool("isRunning", false);
+            }
+
+            if (isGrounded == true && Input.GetKeyDown(KeyCode.Space))
+            {
+                isJumping = true;
+                anim.SetTrigger("Jump");
+                jumpTimeCounter = jumpTime;
+                rb.velocity = Vector2.up * jumpForce;
+
+            }
+
+            if (Input.GetKey(KeyCode.Space) && isJumping == true)
+            {
+                if (jumpTimeCounter > 0)
+                {
+                    rb.velocity = Vector2.up * jumpForce;
+                    jumpTimeCounter -= Time.deltaTime;
+                }
+                else
+                {
+                    isJumping = false;
+                }
+            }
+            if (Input.GetKeyUp(KeyCode.Space))
+            {
                 isJumping = false;
             }
-        }
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-            isJumping = false;
-        }
-        if (Input.GetKeyDown(KeyCode.LeftShift) && isGrounded)
-        {
-            useDashAbility();
+            if (Input.GetKeyDown(KeyCode.LeftShift) && isGrounded)
+            {
+                useDashAbility();
+            }
         }
 
     }
     private void FixedUpdate()
     {
-        moveInput = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+        if (canMove)
+        {
+            moveInput = Input.GetAxisRaw("Horizontal");
+            rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+        }
     }
     public void TakeDamage(int damage)
     {

@@ -14,6 +14,7 @@ TagManager:
   - Cracked Wall
   - Boss
   - Weapon
+  - Targets
   layers:
   - Default
   - TransparentFX
@@ -28,7 +29,7 @@ TagManager:
   - Projectile
   - Boss
   - Environment
-  - 
+  - Targets
   - 
   - 
   - 
@@ -53,6 +54,9 @@ TagManager:
     locked: 0
   - name: Environment
     uniqueID: 3467730453
+    locked: 0
+  - name: TempWall
+    uniqueID: 2454746091
     locked: 0
   - name: Player
     uniqueID: 1835188735

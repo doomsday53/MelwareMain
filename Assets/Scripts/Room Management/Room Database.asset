@@ -12,25 +12,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5dbc00b8815e94d950e2bd9157d687, type: 3}
   m_Name: Room Database
   m_EditorClassIdentifier: 
-  roomXSize: 10
-  roomYSize: 10
+  roomXSize: 20
+  roomYSize: 20
   keys:
+  - HubWorldPart1
   - RoomTransitionSub1
-  - RoomTransitionSub2
-  - RoomTransitionSub3
+  - HubWorldPart2
+  - HubWorldPart3
+  - Part 4
+  - Part 5
+  - Part 6
+  - Part 7
   rooms:
+  - _roomName: HubWorldPart1
+    _roomLocation: {x: 0, y: 0, z: 0}
+    _roomBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 10, y: 10, z: 0}
   - _roomName: RoomTransitionSub1
     _roomLocation: {x: 0, y: 0, z: 0}
     _roomBounds:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 5, y: 6, z: 0}
-  - _roomName: RoomTransitionSub2
-    _roomLocation: {x: 10, y: 0, z: 0}
+  - _roomName: HubWorldPart2
+    _roomLocation: {x: 16, y: 0, z: 0}
+    _roomBounds:
+      m_Center: {x: 14, y: 0, z: 0}
+      m_Extent: {x: 20, y: 10, z: 0}
+  - _roomName: HubWorldPart3
+    _roomLocation: {x: 60, y: 0, z: 0}
+    _roomBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 10, y: 10, z: 0}
+  - _roomName: Part 4
+    _roomLocation: {x: 80, y: 0, z: 0}
+    _roomBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 10, y: 10, z: 0}
+  - _roomName: Part 5
+    _roomLocation: {x: 60, y: 20, z: 0}
+    _roomBounds:
+      m_Center: {x: 0, y: -0.5, z: 0}
+      m_Extent: {x: 10, y: 10.5, z: 0}
+  - _roomName: Part 6
+    _roomLocation: {x: 80, y: 20, z: 0}
+    _roomBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 10, y: 10, z: 0}
+  - _roomName: Part 7
+    _roomLocation: {x: 40, y: 20, z: 0}
     _roomBounds:
       m_Center: {x: 5.5, y: 0, z: 0}
-      m_Extent: {x: 10.5, y: 6, z: 0}
-  - _roomName: RoomTransitionSub3
-    _roomLocation: {x: -10, y: 0, z: 0}
-    _roomBounds:
-      m_Center: {x: -0.5, y: 0, z: 0}
-      m_Extent: {x: 5.5, y: 6, z: 0}
+      m_Extent: {x: 4.5, y: 10, z: 0}

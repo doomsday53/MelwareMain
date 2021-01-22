@@ -15,6 +15,11 @@ TagManager:
   - Boss
   - Weapon
   - Targets
+  - HardDrive
+  - ToNextScene
+  - Ram
+  - Hub
+  - BoundingBox
   layers:
   - Default
   - TransparentFX

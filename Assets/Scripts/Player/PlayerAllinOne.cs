@@ -63,15 +63,16 @@ public class PlayerAllinOne : MonoBehaviour
         {
             canMove = true;
         }
+        UpdateText();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (health != int.Parse(healthText.text.ToString().Split('/')[0]))
+        /*if (health != int.Parse(healthText.text.ToString().Split('/')[0]))
         {
             UpdateText();
-        }
+        }*/
         if (health <= 0)
         {
             ObjectPool.Spawn(deathEffect, transform.position, Quaternion.identity);

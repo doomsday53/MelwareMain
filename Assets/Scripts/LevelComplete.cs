@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,14 +8,17 @@ public class LevelComplete : MonoBehaviour
     //public AudioClip levelComplete;
     public ParticleSystem particles;
     public int sceneIndex;
-    private Scene mainScene;
+    public int prevSceneIndex;
+    public Scene prevScene;
+    private Scene curScene;
     // Start is called before the first frame update
     void Start()
     {
         particles = gameObject.GetComponent<ParticleSystem>();
         particles.Stop();
-        mainScene = SceneManager.GetActiveScene();
-        sceneIndex = mainScene.buildIndex;
+        curScene = SceneManager.GetActiveScene();
+        sceneIndex = curScene.buildIndex;
+        
     }
 
     /*// Update is called once per frame
@@ -29,7 +31,18 @@ public class LevelComplete : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            StartCoroutine(LevelTransition());
+            if (this.CompareTag("Hub"))
+            {
+                StartCoroutine(ToHub());
+            }
+            else if(this.CompareTag("ToNextScene"))
+            {
+                StartCoroutine(LevelTransition());
+            }
+            else if (this.CompareTag("Ram"))
+            {
+                StartCoroutine(ToRam());
+            }
         }
     }
     public IEnumerator LevelTransition()
@@ -42,5 +55,32 @@ public class LevelComplete : MonoBehaviour
         yield return new WaitForSeconds(3);
         SceneManager.LoadScene(sceneIndex + 1);
        
+    }
+
+    public IEnumerator ToHub()
+    {
+        //audioSource.clip = levelComplete;
+        if (particles.isStopped)
+        {
+            particles.Play();
+        }
+        prevScene = SceneManager.GetActiveScene();
+
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene("HubWorldMain");
+
+    }
+
+    public IEnumerator ToRam()
+    {
+        //audioSource.clip = levelComplete;
+        if (particles.isStopped)
+        {
+            particles.Play();
+        }
+
+        yield return new WaitForSeconds(3);
+        //SceneManager.LoadScene("RamLevel1");
+
     }
 }

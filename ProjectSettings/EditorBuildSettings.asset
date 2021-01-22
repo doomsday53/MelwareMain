@@ -29,4 +29,28 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/RoomManager Test/Room transition rooms/RoomTransitionSub3.unity
     guid: fc3b59aa32ab44e428430cef7194916f
+  - enabled: 1
+    path: Assets/Scenes/Main Scenes/Hub World/HubWorldMain.unity
+    guid: 505d74550a331ee4292a4dd884d98ec7
+  - enabled: 1
+    path: Assets/Scenes/Main Scenes/Hub World/HubWorldScenes/HubWorldPart1.unity
+    guid: 886c6bfb6aa160d4b8532e23e402332b
+  - enabled: 1
+    path: Assets/Scenes/Main Scenes/Hub World/HubWorldScenes/HubWorldPart2.unity
+    guid: 8b60306492718e143b33dee096fed4b9
+  - enabled: 1
+    path: Assets/Scenes/Main Scenes/Hub World/HubWorldScenes/HubWorldPart3.unity
+    guid: 4cbe9a553767d69419195434ebe3fcdb
+  - enabled: 1
+    path: Assets/Scenes/Main Scenes/Hub World/HubWorldScenes/Part 4.unity
+    guid: 50cbe734bc4b9d0439b494a0282086fe
+  - enabled: 1
+    path: Assets/Scenes/Main Scenes/Hub World/HubWorldScenes/Part 5.unity
+    guid: a0792532fc1e99c43a5ed023cb05a699
+  - enabled: 1
+    path: Assets/Scenes/Main Scenes/Hub World/HubWorldScenes/Part 6.unity
+    guid: 6df050f2926cf9844b0332a70acace01
+  - enabled: 1
+    path: Assets/Scenes/Main Scenes/Hub World/HubWorldScenes/Part 7.unity
+    guid: 40423e2f0f360cc48b6d36f1bd8b714c
   m_configObjects: {}

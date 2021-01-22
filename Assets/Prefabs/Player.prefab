@@ -76,7 +76,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1835188735
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 3288223238743981929, guid: 9fde195b31455d5479868c63257374d2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -174,6 +174,7 @@ MonoBehaviour:
   defaultSpeed: 8
   dashSpeed: 24
   canDash: 0
+  canMove: 0
   jumpForce: 20
   defaultJumpForce: 20
   dashJumpBoost: 24
@@ -183,12 +184,13 @@ MonoBehaviour:
   checkRadius: 0.5
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 18432
+    m_Bits: 6144
   dashCooldown: 0.17
   dashMomeDropoff: 1.5
   dashDropoffCalc: 0
   deathEffect: {fileID: 8092615506543658870, guid: 30e6d9bc4711ca14fa5c75431187a84d, type: 3}
   healthText: {fileID: 0}
+  sceneIndex: 0
 --- !u!1 &194419840809654202
 GameObject:
   m_ObjectHideFlags: 0
@@ -5183,8 +5185,10 @@ MonoBehaviour:
   mainProjectile: {fileID: 7560619352479132827, guid: 3011e8baf68951244a84d1f7a945cb57, type: 3}
   grenadeProjectile: {fileID: 156762422219557398, guid: 7497761c47e01a145bc3197d6c0c8938, type: 3}
   hasGrenade: 1
+  canShoot: 0
   grenadeCooldown: 1.5
   shotPoint: {fileID: 194419841115253304}
+  sceneIndex: 0
   startTimeBtwShots: 0.1
 --- !u!1 &194419841698309119
 GameObject:

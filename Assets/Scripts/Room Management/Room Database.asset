@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa5dbc00b8815e94d950e2bd9157d687, type: 3}
+  m_Name: Room Database
+  m_EditorClassIdentifier: 
+  roomXSize: 10
+  roomYSize: 10
+  keys:
+  - RoomTransitionSub1
+  - RoomTransitionSub2
+  - RoomTransitionSub3
+  rooms:
+  - _roomName: RoomTransitionSub1
+    _roomLocation: {x: 0, y: 0, z: 0}
+    _roomBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 5, y: 6, z: 0}
+  - _roomName: RoomTransitionSub2
+    _roomLocation: {x: 10, y: 0, z: 0}
+    _roomBounds:
+      m_Center: {x: 5.5, y: 0, z: 0}
+      m_Extent: {x: 10.5, y: 6, z: 0}
+  - _roomName: RoomTransitionSub3
+    _roomLocation: {x: -10, y: 0, z: 0}
+    _roomBounds:
+      m_Center: {x: -0.5, y: 0, z: 0}
+      m_Extent: {x: 5.5, y: 6, z: 0}

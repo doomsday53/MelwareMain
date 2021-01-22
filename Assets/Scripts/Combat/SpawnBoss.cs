@@ -30,7 +30,7 @@ public class SpawnBoss : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             StartCoroutine(BossIntro());
-            gameObject.SetActive(false);
+            //gameObject.SetActive(false);
         }
     }
 
@@ -38,11 +38,16 @@ public class SpawnBoss : MonoBehaviour
     {
         //audioSource.clip = bossMusic;
         doorways.SetActive(false);
+        Debug.Log("Doors Locked");
         yield return new WaitForSeconds(1);
         bossTitle.SetActive(true);
+        Debug.Log("Title Shown");
         yield return new WaitForSeconds(1);
         bossText.SetActive(true);
-        yield return new WaitForSeconds(1);
+        Debug.Log("Health Displayed");
+        yield return new WaitForSeconds(0);
         boss.SetActive(true);
+        Debug.Log("Boss Active");
+        gameObject.SetActive(false);
     }
 }

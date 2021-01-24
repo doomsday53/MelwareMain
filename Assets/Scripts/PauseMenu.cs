@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using Assets.Scripts.SaveSystem;
 
 public class PauseMenu : MonoBehaviour
@@ -64,7 +65,13 @@ public class PauseMenu : MonoBehaviour
     }
     public void SaveGame(string fileName)
     {
-        GameData gameData = new GameData(player, weakWalls);
+        List<string> activeScenes = new List<string>();
+        for(int i = 0; i < SceneManager.sceneCount; i++)
+        {
+            activeScenes.Add(SceneManager.GetSceneAt(i).name);
+        }
+        Debug.Log($"Saved at: {player.transform.position}");
+        GameData gameData = new GameData(player, weakWalls, activeScenes);
         SaveSystem.Save(gameData, fileName);
     }
     public void GoToLoad()
@@ -75,7 +82,15 @@ public class PauseMenu : MonoBehaviour
     }
     public void LoadGame(string fileName)
     {
+        for(int i = 0; i < SceneManager.sceneCount; i++)
+        {
+            SceneManager.UnloadSceneAsync(SceneManager.GetSceneAt(i));
+        }
         GameData gameData = SaveSystem.Load(fileName);
+        foreach(string sceneName in gameData.activeScenes)
+        {
+            SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
+        }
         Debug.Log($"New position: {gameData.savePositionX}, {gameData.savePositionY}");
         player.transform.position.Set
            (gameData.savePositionX,

@@ -82,20 +82,21 @@ public class PauseMenu : MonoBehaviour
     }
     public void LoadGame(string fileName)
     {
+        /*
         for(int i = 0; i < SceneManager.sceneCount; i++)
         {
             SceneManager.UnloadSceneAsync(SceneManager.GetSceneAt(i));
-        }
+        }*/
         GameData gameData = SaveSystem.Load(fileName);
+        /*
         foreach(string sceneName in gameData.activeScenes)
         {
             SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
-        }
+        }*/
         Debug.Log($"New position: {gameData.savePositionX}, {gameData.savePositionY}");
-        player.transform.position.Set
-           (gameData.savePositionX,
-            gameData.savePositionY,
-            transform.position.z);
+        Vector3 savePosition = new Vector3(gameData.savePositionX, gameData.savePositionY, player.transform.position.z);
+        Vector3 playerMovement = player.transform.position - savePosition;
+        player.transform.Translate(playerMovement);
         player.GetComponent<PlayerAllinOne>().health = gameData.health;
 
         for (int i = 0; i < gameData.activeWalls.Length; i++)

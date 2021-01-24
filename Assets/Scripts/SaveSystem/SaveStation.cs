@@ -18,6 +18,7 @@ public class SaveStation : MonoBehaviour
     }
     private void Update()
     {
+        /*
         if(Input.GetKeyDown(KeyCode.L))
         {
             GameData gameData = SaveSystem.Load("save1");
@@ -33,16 +34,16 @@ public class SaveStation : MonoBehaviour
             {
                 weakWalls[i].SetActive(gameData.activeWalls[i]);
             }
-        }
+        }*/
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag(playerTag))
         {
-            //pauseMenu.playerInSaveRoom = true;
+            pauseMenu.playerInSaveRoom = true;
             Debug.Log("Player entered save room");
-            GameData gameData = new GameData(player, weakWalls);
-            SaveSystem.Save(gameData, "save1");
+            //GameData gameData = new GameData(player, weakWalls);
+            //SaveSystem.Save(gameData, "save1");
         }
     }
     private void OnTriggerExit2D(Collider2D collision)

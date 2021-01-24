@@ -23,6 +23,8 @@ MonoBehaviour:
   - Part 5
   - Part 6
   - Part 7
+  - RoomTransitionSub2
+  - RoomTransitionSub3
   rooms:
   - _roomName: HubWorldPart1
     _roomLocation: {x: 0, y: 0, z: 0}
@@ -64,3 +66,13 @@ MonoBehaviour:
     _roomBounds:
       m_Center: {x: 5.5, y: 0, z: 0}
       m_Extent: {x: 4.5, y: 10, z: 0}
+  - _roomName: RoomTransitionSub2
+    _roomLocation: {x: 10, y: 0, z: 0}
+    _roomBounds:
+      m_Center: {x: 5.5, y: 0, z: 0}
+      m_Extent: {x: 10.5, y: 6, z: 0}
+  - _roomName: RoomTransitionSub3
+    _roomLocation: {x: -10, y: 0, z: 0}
+    _roomBounds:
+      m_Center: {x: -0.5, y: 0, z: 0}
+      m_Extent: {x: 5.5, y: 6, z: 0}

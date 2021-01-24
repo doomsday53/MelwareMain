@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 namespace Assets.Scripts.SaveSystem
@@ -15,18 +16,20 @@ namespace Assets.Scripts.SaveSystem
         public int health;
         public float savePositionX;
         public float savePositionY;
+        public List<string> activeScenes;
         public bool[] activeWalls;
         //Dictionary<string, bool> bosses;
-        public GameData(GameObject newPlayer, GameObject[] weakWalls)
+        public GameData(GameObject newPlayer, GameObject[] newWalls, List<string> newScenes)
         {
             hasGrenade = newPlayer.GetComponentInChildren<Weapon>().hasGrenade;
             health = newPlayer.GetComponent<PlayerAllinOne>().health;
             savePositionX = newPlayer.transform.position.x;
             savePositionY = newPlayer.transform.position.y;
-            activeWalls = new bool[weakWalls.Length];
-            for(int i = 0; i < weakWalls.Length; i++)
+            activeWalls = new bool[newWalls.Length];
+            activeScenes = newScenes;
+            for(int i = 0; i < newWalls.Length; i++)
             {
-                activeWalls[i] = weakWalls[i].activeSelf;
+                activeWalls[i] = newWalls[i].activeSelf;
             }
         }
     }

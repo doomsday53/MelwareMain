@@ -24,7 +24,7 @@ public class Projectile : MonoBehaviour
         {
             if (hitInfo.collider.CompareTag("Targets"))
             {
-                hitInfo.collider.GetComponent<GrenadeTutorial>().TakeDamage(damage);
+                hitInfo.collider.GetComponent<Targets>().TakeDamage(damage);
             }
             if (hitInfo.collider.CompareTag("Enemy"))
             {

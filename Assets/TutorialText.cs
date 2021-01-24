@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class TutorialText : MonoBehaviour
 {
     public Text tutorialText;
+    public Text bossTitle;
+    public Text bossHealth;
     public Image tutorialTextbox;
     public PlayerAllinOne player;
     public Weapon weapon;
@@ -15,18 +17,18 @@ public class TutorialText : MonoBehaviour
     public bool movedRight = false;
     public bool completedMovement = false;
     public bool startedWeaponTest = false;
-    public bool wallActive = true;
     public bool finishedTutorial = false;
     public bool textFinished = false;
-    public int hitTargets = 0;
-    public GameObject weakWall;
-    public GameObject tempWall;
+    public int targets;
+
     // Start is called before the first frame update
     private void OnEnable()
     {
+        bossTitle.gameObject.SetActive(false);
+        bossHealth.gameObject.SetActive(false);
         player.canMove = false;
         canClick = true;
-        weapon.canShoot = false;
+        targets = 3;
     }
 
     // Update is called once per frame
@@ -61,23 +63,10 @@ public class TutorialText : MonoBehaviour
             startedWeaponTest = false;
             StartCoroutine(Shooting());
         }
-        if(hitTargets >= 3)
+        if(targets <= 0)
         {
-            hitTargets = 0;
-            StartCoroutine(Grenade());
-        }
-        if (!weakWall.activeSelf && wallActive)
-        {
-            wallActive = false;
-            StartCoroutine(Saving());
-        }
-        if (finishedTutorial && textFinished == false)
-        {
-            textFinished = true;
             StartCoroutine(Finished());
         }
-
-
     }
 
     public IEnumerator Jumping()
@@ -86,7 +75,7 @@ public class TutorialText : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         tutorialText.text = "Movement Test Completed \n - Please Proceed To The Next Room -";
         tutorialTextbox.gameObject.SetActive(true);
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         tutorialTextbox.gameObject.SetActive(false);
     }
 
@@ -97,37 +86,19 @@ public class TutorialText : MonoBehaviour
         tutorialText.text = "Starting Weapon Test \n - shoot the targets using your cursor and Lmb -";
         tutorialTextbox.gameObject.SetActive(true);
         weapon.canShoot = true;
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         tutorialTextbox.gameObject.SetActive(false);
     }
-    public IEnumerator Saving()
-    {
-        tutorialTextbox.gameObject.SetActive(false);
-        yield return new WaitForSeconds(0.5f);
-        tutorialText.text = "Grenade Code Error! Grenade Data Lost \n - proceed to save room -";
-        tutorialTextbox.gameObject.SetActive(true);
-        weapon.hasGrenade = false;
-        yield return new WaitForSeconds(1);
-        tutorialTextbox.gameObject.SetActive(false);
-    }
+
     public IEnumerator Finished()
     {
+        targets = 3;
         tutorialTextbox.gameObject.SetActive(false);
         yield return new WaitForSeconds(0.5f);
         tutorialText.text = "Tutorial Complete \n - Proceed to the next level -";
         tutorialTextbox.gameObject.SetActive(true);
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         tutorialTextbox.gameObject.SetActive(false);
-    }
-    public IEnumerator Grenade()
-    {
-        tutorialTextbox.gameObject.SetActive(false);
-        yield return new WaitForSeconds(0.5f);
-        tutorialText.text = "Starting Grenade Test \n - fire at the red wall using Rmb -";
-        tutorialTextbox.gameObject.SetActive(true);
-        yield return new WaitForSeconds(1);
-        tutorialTextbox.gameObject.SetActive(false);
-        tempWall.SetActive(false);
     }
     public IEnumerator Movement()
     {
@@ -137,7 +108,7 @@ public class TutorialText : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         tutorialText.text = "Starting Movement Test \n - Use WASD To Move and Space to jump -";
         tutorialTextbox.gameObject.SetActive(true);
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         tutorialTextbox.gameObject.SetActive(false);
     }
 }

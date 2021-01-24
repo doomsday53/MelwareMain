@@ -25,7 +25,7 @@ public class Weapon : MonoBehaviour
     {
         mainScene = SceneManager.GetActiveScene();
         sceneIndex = mainScene.buildIndex;
-        if (sceneIndex > 2)
+        /*if (sceneIndex > 2)
         {
             canShoot = true;
         }
@@ -40,7 +40,7 @@ public class Weapon : MonoBehaviour
         else
         {
             hasGrenade = true;
-        }
+        }*/
     }
     private void Update()
     {
@@ -48,7 +48,7 @@ public class Weapon : MonoBehaviour
         float rotZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, rotZ + offset);
 
-        if (timeBtwShots <= 0 && Input.GetMouseButtonDown(0) && canShoot)
+        if (timeBtwShots <= 0 && Input.GetMouseButtonDown(0))
         {
             ObjectPool.Spawn(muzzFlash, shotPoint.position, transform.rotation);
             Instantiate(mainProjectile, shotPoint.position, transform.rotation);

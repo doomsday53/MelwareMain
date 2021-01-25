@@ -70,7 +70,6 @@ public class PauseMenu : MonoBehaviour
         {
             activeScenes.Add(SceneManager.GetSceneAt(i).name);
         }
-        Debug.Log($"Saved at: {player.transform.position}");
         GameData gameData = new GameData(player, weakWalls, activeScenes);
         SaveSystem.Save(gameData, fileName);
     }
@@ -95,8 +94,9 @@ public class PauseMenu : MonoBehaviour
         }*/
         Debug.Log($"New position: {gameData.savePositionX}, {gameData.savePositionY}");
         Vector3 savePosition = new Vector3(gameData.savePositionX, gameData.savePositionY, player.transform.position.z);
-        Vector3 playerMovement = player.transform.position - savePosition;
-        player.transform.Translate(playerMovement);
+        //Vector3 playerMovement = player.transform.position - savePosition;
+        //player.transform.Translate(playerMovement);
+        player.transform.position = savePosition;
         player.GetComponent<PlayerAllinOne>().health = gameData.health;
 
         for (int i = 0; i < gameData.activeWalls.Length; i++)

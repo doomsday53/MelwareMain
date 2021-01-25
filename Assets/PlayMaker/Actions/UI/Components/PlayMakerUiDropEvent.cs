@@ -1,19 +1,3 @@
-﻿#if !PLAYMAKER_NO_UI
-
-using HutongGames.PlayMaker.Actions;
-using UnityEngine;
-using UnityEngine.EventSystems;
-
-namespace HutongGames.PlayMaker
-{
-    [AddComponentMenu("PlayMaker/UI/UI Drop Event")]
-    public class PlayMakerUiDropEvent : PlayMakerUiEventBase, IDropHandler
-    {
-        public void OnDrop(PointerEventData eventData)
-        {
-            UiGetLastPointerDataInfo.lastPointerEventData = eventData;
-            SendEvent(FsmEvent.UiDrop);
-        }
-    }
-}
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:fcd19bbe0e3a9761a5d7ab98597df45cc22881f759812c654e6cae663a17782a
+size 500

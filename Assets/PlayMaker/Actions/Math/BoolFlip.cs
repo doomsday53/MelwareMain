@@ -1,25 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.Math)]
-	[Tooltip("Flips the value of a Bool Variable.")]
-	public class BoolFlip : FsmStateAction
-	{
-		[RequiredField]
-		[UIHint(UIHint.Variable)]
-        [Tooltip("Bool variable to flip.")]
-		public FsmBool boolVariable;
-
-		public override void Reset()
-		{
-			boolVariable = null;
-		}
-
-		public override void OnEnter()
-		{
-			boolVariable.Value = !boolVariable.Value;
-			Finish();		
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d539cfe73f4290fa63a096d02594dbcba4c6e4ca4bb9d314ffeae26a860413f4
+size 556

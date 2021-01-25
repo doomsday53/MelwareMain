@@ -1,24 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2016. All rights reserved.
-
-using UnityEngine;
-using UnityEditor;
-
-using HutongGames.PlayMaker.Actions;
-using HutongGames.PlayMakerEditor;
-
-[CustomActionEditor(typeof(GetAnimatorDelta))]
-public class GetAnimatorDeltaActionEditor : OnAnimatorUpdateActionEditorBase
-{
-
-	public override bool OnGUI()
-	{
-		EditField("gameObject");
-		EditField("deltaPosition");
-		EditField("deltaRotation");
-		
-		bool changed = EditEveryFrameField();
-		
-		return GUI.changed || changed;
-	}
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:86bf359bfe28bedf80d871bbfced1f25360bd6bdbc1adcc753a81fa968c60c11
+size 535

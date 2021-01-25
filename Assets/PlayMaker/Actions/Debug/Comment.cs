@@ -1,31 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using System;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.Debug)]
-	[Tooltip("Adds a text area to the action list. NOTE: Doesn't do anything, just for notes...")]
-	public class Comment : FsmStateAction
-	{
-		[UIHint(UIHint.Comment)]
-		public string comment;
-
-		public override void Reset()
-		{
-			comment = "";
-		}
-
-		public override void OnEnter()
-		{
-			Finish();
-		}
-
-#if UNITY_EDITOR
-	    public override string AutoName()
-	    {
-	        return ": " + comment.Replace("\n","  ");
-	    }
-#endif
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:935318c2a42abdb3742e98ddb60d0719cd5e8eb5c4b311d379bdfd7b23aae1d6
+size 629

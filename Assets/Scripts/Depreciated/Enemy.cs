@@ -1,31 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class Enemy : MonoBehaviour
-{
-    public int health;
-    public GameObject deathEffect;
-    public GameObject healthPickup;
-    private int dropChance;
-
-    private void Update()
-    {
-        if (health <= 0)
-        {
-            ObjectPool.Spawn(deathEffect, transform.position, Quaternion.identity);
-            Destroy(gameObject);
-            dropChance = Random.Range(1, 4);
-            if (dropChance == 2)
-            {
-                ObjectPool.Spawn(healthPickup, transform.position, Quaternion.identity);
-            }
-        }
-    }
-
-
-    public void TakeDamage(int damage)
-    {
-        health -= damage;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:50fc919cb2e9c902ca52c7146619c642ccf2cb818bac4d2914e75c5fbdda558b
+size 750

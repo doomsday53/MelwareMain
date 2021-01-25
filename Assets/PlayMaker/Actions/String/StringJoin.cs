@@ -1,29 +1,3 @@
-namespace HutongGames.PlayMaker.Actions
-{
-    [ActionCategory(ActionCategory.String)]
-    [Tooltip("Join an array of strings into a single string.")]
-    public class StringJoin : FsmStateAction
-    {
-        [UIHint(UIHint.Variable)]
-        [ArrayEditor(VariableType.String)]
-        [Tooltip("Array of string to join into a single string.")]
-        public FsmArray stringArray;
-
-        [Tooltip("Separator to add between each string.")]
-        public FsmString separator;
-
-        [UIHint(UIHint.Variable)]
-        [Tooltip("Store the joined string in string variable.")]
-        public FsmString storeResult;
-
-        public override void OnEnter()
-	    {
-            if (!stringArray.IsNone && !storeResult.IsNone)
-            {
-                storeResult.Value = string.Join(separator.Value, stringArray.stringValues);
-            }
-
-            Finish();
-	    }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:de774d4d8a79bc4f680b0cabed8eb18891df80ec4b910eb558f42b6e47cb676e
+size 910

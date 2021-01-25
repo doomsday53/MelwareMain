@@ -1,23 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class EnableGrenade : MonoBehaviour
-{
-    private Weapon weapon;
-    // Start is called before the first frame update
-    void Start()
-    {
-        weapon = GameObject.FindGameObjectWithTag("Weapon").GetComponent<Weapon>();
-        if (weapon.hasGrenade)
-        {
-            Destroy(this);
-        }
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        weapon.hasGrenade = true;
-        Destroy(gameObject);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:838f68f31ed9354abfaa892d12ae972b8d21bd12d80cc682232d9fca5976308f
+size 556

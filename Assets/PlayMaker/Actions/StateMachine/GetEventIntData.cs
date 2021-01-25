@@ -1,27 +1,3 @@
-﻿// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-
-namespace HutongGames.PlayMaker.Actions
-{
-    [ActionCategory(ActionCategory.StateMachine)]
-    [Tooltip("Gets the Int data from the last Event.")]
-    public class GetEventIntData : FsmStateAction
-    {
-        [UIHint(UIHint.Variable)]
-        [Tooltip("Store the int data in a variable.")]
-        public FsmInt getIntData;
-
-        public override void Reset()
-        {
-            getIntData = null;
-        }
-
-        public override void OnEnter()
-        {
-            getIntData.Value = Fsm.EventData.IntData;
-			
-            Finish();
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b344a423e03b505b05477a5cc5a069d4140989320cf7ee0206c7b4c6328eaac1
+size 679

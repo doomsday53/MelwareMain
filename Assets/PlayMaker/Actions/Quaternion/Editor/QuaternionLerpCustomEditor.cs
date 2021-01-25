@@ -1,26 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2016. All rights reserved.
-
-using HutongGames.PlayMaker.Actions;
-using HutongGames.PlayMakerEditor;
-using UnityEditor;
-using UnityEngine;
-
-
-[CustomActionEditor(typeof(QuaternionLerp))]
-public class QuaternionLerpCustomEditor : QuaternionCustomEditorBase
-{
-
-    public override bool OnGUI()
-    {
-		EditField("fromQuaternion");
-		EditField("toQuaternion");
-		EditField("amount");
-		EditField("storeResult");
-		
-		bool changed = EditEveryFrameField();
-		
-		return GUI.changed || changed;
-    }
-
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:512d055ada401949b786ff35849d87b0ef760da87f657d109c53f6d0a11dcdc5
+size 561

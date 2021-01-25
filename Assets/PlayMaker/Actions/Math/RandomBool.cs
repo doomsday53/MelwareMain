@@ -1,26 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.Math)]
-	[Tooltip("Sets a Bool Variable to True or False randomly.")]
-	public class RandomBool : FsmStateAction
-	{
-		[UIHint(UIHint.Variable)]
-		public FsmBool storeResult;
-
-		public override void Reset()
-		{
-			storeResult = null;
-		}
-
-		public override void OnEnter()
-		{
-			storeResult.Value = Random.Range(0, 100) < 50;
-			
-			Finish();
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a59136df97651276432da738d4f3d861b06804ac3088f6213b75727e5e8cc996
+size 534

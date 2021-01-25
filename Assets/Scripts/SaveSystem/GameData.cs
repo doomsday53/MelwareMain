@@ -1,36 +1,3 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UnityEngine;
-using UnityEngine.SceneManagement;
-
-
-namespace Assets.Scripts.SaveSystem
-{
-    [System.Serializable] 
-    public class GameData 
-    {
-        public bool hasGrenade;
-        public int health;
-        public float savePositionX;
-        public float savePositionY;
-        public List<string> activeScenes;
-        public bool[] activeWalls;
-        //Dictionary<string, bool> bosses;
-        public GameData(GameObject newPlayer, GameObject[] newWalls, List<string> newScenes)
-        {
-            hasGrenade = newPlayer.GetComponentInChildren<Weapon>().hasGrenade;
-            health = newPlayer.GetComponent<PlayerAllinOne>().health;
-            savePositionX = newPlayer.transform.position.x;
-            savePositionY = newPlayer.transform.position.y;
-            activeWalls = new bool[newWalls.Length];
-            activeScenes = newScenes;
-            for(int i = 0; i < newWalls.Length; i++)
-            {
-                activeWalls[i] = newWalls[i].activeSelf;
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e334217b1dfccf60c0ea227456da3dd885ad5226c104e9f98bcf96d19461951f
+size 1180

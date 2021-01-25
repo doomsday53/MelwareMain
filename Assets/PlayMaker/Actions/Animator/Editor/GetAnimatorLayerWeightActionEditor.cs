@@ -1,24 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2016. All rights reserved.
-
-using UnityEngine;
-using UnityEditor;
-
-using HutongGames.PlayMaker.Actions;
-using HutongGames.PlayMakerEditor;
-
-[CustomActionEditor(typeof(GetAnimatorLayerWeight))]
-public class GetAnimatorLayerWeightActionEditor : OnAnimatorUpdateActionEditorBase
-{
-
-	public override bool OnGUI()
-	{
-		EditField("gameObject");
-		EditField("layerIndex");
-		EditField("layerWeight");
-
-		bool changed = EditEveryFrameField();
-		
-		return GUI.changed || changed;
-	}
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a50d6fc82307b0e5824e78ad7b28b8f58cc8e61b850576ef01799ed1a61a7560
+size 540

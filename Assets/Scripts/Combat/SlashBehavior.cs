@@ -1,33 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class SlashBehavior : StateMachineBehaviour
-{
-    public float timer;
-    public float minTime;
-    public float maxTime;
-
-    override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    {
-        timer = Random.Range(minTime, maxTime);
-    }
-
-    override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    {
-        if (timer <= 0)
-        {
-            animator.SetTrigger("Idle");
-        }
-        else
-        {
-            timer -= Time.deltaTime;
-        }
-    }
-
-    override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    {
-        
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:965d084b4e2d299b61d58d1c96d79b74a20a95e889c4869e8474c1bac400e65f
+size 805

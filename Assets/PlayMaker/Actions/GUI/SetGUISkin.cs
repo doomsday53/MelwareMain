@@ -1,33 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.GUI)]
-	[Tooltip("Sets the GUISkin used by GUI elements.")]
-	public class SetGUISkin : FsmStateAction
-	{
-		[RequiredField]
-		public GUISkin skin;
-		public FsmBool applyGlobally;
-
-		public override void Reset()
-		{
-			skin = null;
-			applyGlobally = true;
-		}
-
-		public override void OnGUI()
-		{
-			if (skin != null)
-				GUI.skin = skin;
-			
-			if (applyGlobally.Value)
-			{
-				PlayMakerGUI.GUISkin = skin;
-				Finish();
-			}
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7178461830b319678427b7409756f71f46f21346cf930f6597cf38a039b8a825
+size 626

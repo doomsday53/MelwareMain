@@ -1,25 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2016. All rights reserved.
-
-using HutongGames.PlayMaker;
-using HutongGames.PlayMaker.Actions;
-using HutongGames.PlayMakerEditor;
-using UnityEditor;
-using UnityEngine;
-
-
-[CustomActionEditor(typeof(QuaternionEuler))]
-public class QuaternionEulerCustomEditor : QuaternionCustomEditorBase
-{
-
-    public override bool OnGUI()
-    {
-		EditField("eulerAngles");
-		EditField("result");
-		
-		bool changed = EditEveryFrameField();
-		
-		return GUI.changed || changed;
-    }
-
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:17dfe2a48ccba320b2cc4755693e3cae850cffb66196ed5a9ad04b0dd52d86a9
+size 531

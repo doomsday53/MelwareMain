@@ -1,30 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.GUI)]
-	[Tooltip("Sets the Tinting Color for the GUI. By default only effects GUI rendered by this FSM, check Apply Globally to effect all GUI controls.")]
-	public class SetGUIColor : FsmStateAction
-	{
-		[RequiredField]
-		public FsmColor color;
-		public FsmBool applyGlobally;
-	
-		public override void Reset()
-		{
-			color = Color.white;
-		}
-
-		public override void OnGUI()
-		{
-			GUI.color = color.Value;
-			
-			if (applyGlobally.Value)
-			{
-				PlayMakerGUI.GUIColor = GUI.color;
-			}
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:eca63338f197f007a28e967aa2d79e5be47b81629f556e2e50a71e8f763bb22d
+size 684

@@ -1,28 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-
-public class Doorways : MonoBehaviour
-{
-    public GameObject doorways;
-    // Start is called before the first frame update
-    void Start()
-    {
-        doorways = GameObject.FindGameObjectWithTag("Doorways");
-    }
-    public void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            doorways.SetActive(false);
-        }
-    }
-    public void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            doorways.SetActive(true);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a501f72e65333cc14bd07b9206583ef4ecf25c5edcd394fb3f3f4fa7ba4eabe9
+size 692

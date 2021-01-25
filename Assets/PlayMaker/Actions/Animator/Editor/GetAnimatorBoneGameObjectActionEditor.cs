@@ -1,23 +1,3 @@
-﻿// (c) Copyright HutongGames, LLC 2010-2016. All rights reserved.
-
-using HutongGames.PlayMaker.Actions;
-using HutongGames.PlayMakerEditor;
-using UnityEditor;
-using UnityEngine;
-
-namespace HutongGames.PlayMakerEditor
-{
-	[CustomActionEditor(typeof(GetAnimatorBoneGameObject))]
-	public class GetAnimatorBoneGameObjectActionEditor : CustomActionEditor
-	{
-		#region implemented abstract members of CustomActionEditor
-		public override bool OnGUI ()
-		{
-			return DrawDefaultInspector();
-		}
-		#endregion
-		
-
-		
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8611a5d1cf960ec2285af0551446d6f8427e581bc65d9a9c4d0a006fb8b289d4
+size 535

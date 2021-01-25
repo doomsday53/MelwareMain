@@ -1,35 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.GameObject)]
-	[Tooltip("Unparents all children from the Game Object.")]
-	public class DetachChildren : FsmStateAction
-	{
-		[RequiredField]
-        [Tooltip("GameObject to unparent children from.")]
-		public FsmOwnerDefault gameObject;
-
-		public override void Reset()
-		{
-			gameObject = null;
-		}
-
-		public override void OnEnter()
-		{
-			DoDetachChildren(Fsm.GetOwnerDefaultTarget(gameObject));
-			
-			Finish();
-		}
-
-		static void DoDetachChildren(GameObject go)
-		{
-			if (go != null)
-			{
-				go.transform.DetachChildren();
-			}
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:abd85aa1ead42cec6d2cd5367dd277536b0b6f0f0a59d9e5009e1c1baac6d0a3
+size 734

@@ -1,23 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2016. All rights reserved.
-
-using UnityEngine;
-using UnityEditor;
-
-using HutongGames.PlayMaker.Actions;
-using HutongGames.PlayMakerEditor;
-
-[CustomActionEditor(typeof(GetAnimatorGravityWeight))]
-public class GetAnimatorGravityWeightActionEditor : OnAnimatorUpdateActionEditorBase
-{
-
-	public override bool OnGUI()
-	{
-		EditField("gameObject");
-		EditField("gravityWeight");
-		
-		bool changed = EditEveryFrameField();
-		
-		return GUI.changed || changed;
-	}
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0fa2f84662a53989369da6a16bffa6a07378b52d9b1ad4b38cb4338534cb4442
+size 520

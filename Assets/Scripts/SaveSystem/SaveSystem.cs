@@ -1,35 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
-using UnityEngine;
-using Assets.Scripts.SaveSystem;
-
-public class SaveSystem
-{
-    public static void Save(GameData gameData, string filename)
-    {
-        BinaryFormatter binaryFormatter = new BinaryFormatter();
-        string path = Application.persistentDataPath + "/" + filename + ".MWD";
-        Debug.Log(path);
-        FileStream fileStream = new FileStream(path, FileMode.Create);
-        binaryFormatter.Serialize(fileStream, gameData);
-        fileStream.Close();
-    }
-    public static GameData Load(string filename)
-    {
-        string path = Application.persistentDataPath + "/" + filename + ".MWD";
-        if (File.Exists(path))
-        {
-            BinaryFormatter binaryFormatter = new BinaryFormatter();
-            FileStream fileStream = new FileStream(path, FileMode.Open);
-            GameData gameData = binaryFormatter.Deserialize(fileStream) as GameData;
-            fileStream.Close();
-            return gameData;
-        }
-        else
-        {
-            return null;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5eb9ad389263b072f28e864a8c282a1add76d07725e570b43414053fb1edb034
+size 1190

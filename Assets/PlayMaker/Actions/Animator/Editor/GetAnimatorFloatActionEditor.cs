@@ -1,24 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2016. All rights reserved.
-
-using UnityEngine;
-using UnityEditor;
-
-using HutongGames.PlayMaker.Actions;
-using HutongGames.PlayMakerEditor;
-
-[CustomActionEditor(typeof(GetAnimatorFloat))]
-public class GetAnimatorFloatActionEditor : OnAnimatorUpdateActionEditorBase
-{
-
-	public override bool OnGUI()
-	{
-		EditField("gameObject");
-		EditField("parameter");
-		EditField("result");
-		
-		bool changed = EditEveryFrameField();
-		
-		return GUI.changed || changed;
-	}
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7e6a2509e5f4ff8557e38ebda3aa759290cb5f670f1bc396ae59838c23758215
+size 524

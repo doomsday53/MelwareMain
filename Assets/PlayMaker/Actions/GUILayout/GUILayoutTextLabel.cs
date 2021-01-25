@@ -1,36 +1,3 @@
-﻿// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.GUILayout)]
-	[Tooltip("GUILayout Label for simple text.")]
-	public class GUILayoutTextLabel : GUILayoutAction
-	{
-		[Tooltip("Text to display.")]
-		public FsmString text;
-
-		[Tooltip("Optional GUIStyle in the active GUISkin.")]
-		public FsmString style;
-
-		public override void Reset()
-		{
-			base.Reset();
-			text = "";
-			style = "";
-		}
-
-		public override void OnGUI()
-		{
-			if (string.IsNullOrEmpty(style.Value))
-			{
-				GUILayout.Label(new GUIContent(text.Value), LayoutOptions);
-			}
-			else
-			{
-				GUILayout.Label(new GUIContent(text.Value), style.Value, LayoutOptions);
-			}
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0a57fe3efd1756b7706cce4ce3a87afa270160e6a4778417d79b24c9a248eb40
+size 793

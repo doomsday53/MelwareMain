@@ -1,24 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class DestroyAfterTime : MonoBehaviour
-{
-    public float lifeTime;
-    // Start is called before the first frame update
-    void OnEnable()
-    {
-        StartCoroutine(timerStart());
-    }
-
-    private IEnumerator timerStart()
-    {
-        float t = 0;
-        while(t < lifeTime)
-        {
-            t += Time.deltaTime;
-            yield return null;
-        }
-        ObjectPool.Despawn(this.gameObject);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ac58ee8095427cddf812e1daef495c346483cc99b5c37f8c694577076b79547
+size 535

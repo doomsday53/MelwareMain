@@ -1,27 +1,3 @@
-﻿// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-
-namespace HutongGames.PlayMaker.Actions
-{
-    [ActionCategory(ActionCategory.StateMachine)]
-    [Tooltip("Gets the Vector2 data from the last Event.")]
-    public class GetEventVector2Data : FsmStateAction
-    {
-        [UIHint(UIHint.Variable)]
-        [Tooltip("Store the vector2 data in a variable.")]
-        public FsmVector2 getVector2Data;
-
-        public override void Reset()
-        {
-            getVector2Data = null;
-        }
-
-        public override void OnEnter()
-        {
-            getVector2Data.Value = Fsm.EventData.Vector2Data;
-			
-            Finish();
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:793f487adeba1ec563f415de949e6cc87928a29f7178f7128fb83be9664779e1
+size 711

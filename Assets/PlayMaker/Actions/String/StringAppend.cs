@@ -1,30 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.String)]
-	[Tooltip("Adds a String to the end of a String.")]
-	public class StringAppend : FsmStateAction
-	{
-		[RequiredField]
-        [Tooltip("Strings to add to.")]
-        [UIHint(UIHint.Variable)]
-		public FsmString stringVariable;
-
-        [Tooltip("String to append")]
-        public FsmString appendString;
-
-		public override void Reset()
-		{
-		    stringVariable = null;
-		    appendString = null;
-		}
-
-		public override void OnEnter()
-		{
-		    stringVariable.Value += appendString.Value;
-
-		    Finish();
-		}		
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:86a5fcbec62cd34bd6f3d047360fce0e179257df09a1b1afa3d4d558cbd1848c
+size 694

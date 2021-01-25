@@ -1,20 +1,3 @@
-﻿#if !PLAYMAKER_NO_UI
-
-using UnityEngine;
-
-namespace HutongGames.PlayMaker
-{
-    public class PlayMakerCanvasRaycastFilterProxy : MonoBehaviour , ICanvasRaycastFilter
-    {
-        public bool RayCastingEnabled = true;
-
-        #region ICanvasRaycastFilter implementation
-        public bool IsRaycastLocationValid (Vector2 sp, Camera eventCamera)
-        {
-            return RayCastingEnabled;
-        }
-        #endregion
-    }
-}
-
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c624fc337078201a3fe6255e710c6c61d281c9cdaa94b9dafe74e68689da470
+size 461

@@ -1,32 +1,3 @@
-﻿// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-// TODO: Needs to support: ParticlePhysicsExtensions.GetCollisionEvents
-
-using UnityEngine;
-
-namespace HutongGames.PlayMaker.Actions
-{
-    [ActionCategory(ActionCategory.Physics)]
-    [Tooltip("Gets info on the last particle collision event. See Unity Particle System docs.")]
-    public class GetParticleCollisionInfo : FsmStateAction
-    {
-        [UIHint(UIHint.Variable)]
-        [Tooltip("Get the GameObject hit.")]
-        public FsmGameObject gameObjectHit;
-        public override void Reset()
-        {
-            gameObjectHit = null;
-        }
-
-        private void StoreCollisionInfo()
-        {
-            gameObjectHit.Value = Fsm.ParticleCollisionGO;
-        }
-
-        public override void OnEnter()
-        {
-            StoreCollisionInfo();
-
-            Finish();
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:19e74d585627529a860bbb21514cfcf00d9b1738a7ba658c71349b48c2b9f07e
+size 902

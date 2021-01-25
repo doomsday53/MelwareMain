@@ -1,23 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-[System.Serializable]
-public class RoomData
-{
-    [SerializeField] private string _roomName;
-    [SerializeField] private Vector3 _roomLocation;
-    [SerializeField] private Bounds _roomBounds;
-
-    public string RoomName { get { return _roomName; } }
-    public Vector3 RoomLocation { get { return _roomLocation; } }
-    public Bounds RoomBounds { get { return _roomBounds; } }
-    public RoomData(string roomName, Vector3 roomLocation, Bounds roomBounds)
-    {
-        _roomName = roomName;
-        _roomLocation = roomLocation;
-        _roomBounds = roomBounds;
-
-
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e19f0fd0c09f11e961796bd8a46376586423ec5c4a2902a402ede535a328448
+size 681

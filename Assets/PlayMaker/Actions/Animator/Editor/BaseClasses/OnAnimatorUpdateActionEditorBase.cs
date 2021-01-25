@@ -1,35 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2016. All rights reserved.
-
-using HutongGames.PlayMaker.Actions;
-using HutongGames.PlayMakerEditor;
-using UnityEditor;
-using UnityEngine;
-
-
-public class OnAnimatorUpdateActionEditorBase : CustomActionEditor {
-	
-	public override bool OnGUI()
-	{
-		return false;
-	}
-	
-	public bool EditEveryFrameField()
-	{
-		FsmStateActionAnimatorBase _target = (FsmStateActionAnimatorBase)target;
-		
-		if (_target.everyFrame) 
-		{
-			GUILayout.BeginHorizontal();
-			EditorGUILayout.PrefixLabel("Every Frame");
-			_target.everyFrame = GUILayout.Toggle(_target.everyFrame,"");
-			_target.everyFrameOption = (FsmStateActionAnimatorBase.AnimatorFrameUpdateSelector)EditorGUILayout.EnumPopup(_target.everyFrameOption);
-			GUILayout.EndHorizontal();
-			
-		}else{
-			EditField("everyFrame");
-		}
-		
-		return GUI.changed;
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ed7550d867c36ff7d9fa773061678869aaddffe82ac0a079e4eaea0e7ffb1fd6
+size 876

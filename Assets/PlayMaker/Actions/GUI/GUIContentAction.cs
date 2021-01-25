@@ -1,36 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-using System.Collections.Generic;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	// base type for GUI actions with GUIContent parameters
-	
-	[Tooltip("GUI base action - don't use!")]
-	public abstract class GUIContentAction : GUIAction
-	{
-		public FsmTexture image;
-		public FsmString text;
-		public FsmString tooltip;
-		public FsmString style;
-		
-		internal GUIContent content;
-		
-		public override void Reset()
-		{
-			base.Reset();
-			image = null;
-			text = "";
-			tooltip = "";
-			style = "";
-		}
-		
-		public override void OnGUI()
-		{
-			base.OnGUI();
-			
-			content = new GUIContent(text.Value, image.Value, tooltip.Value);
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:04df4a0df9719cbeffedd88f8f24b8575eb3af8e8868e2b9675478da9387fbeb
+size 755

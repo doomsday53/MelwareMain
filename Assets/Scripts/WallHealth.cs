@@ -1,19 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class WallHealth : MonoBehaviour
-{
-    public float health;
-    private void Update()
-    {
-        if( health <= 0)
-        {
-            gameObject.SetActive(false);
-        }
-    }
-    public void TakeDamage(float damage)
-    {
-        health -= damage;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5f1e7d6eb83497de4f42dff759259c9e9cc55daada1d776217f9328d531a6f09
+size 374

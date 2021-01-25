@@ -1,27 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.StateMachine)]
-	[Tooltip("Immediately return to the previously active state.")]
-	public class GotoPreviousState : FsmStateAction
-	{
-		public override void Reset()
-		{
-		}
-
-		public override void OnEnter()
-		{
-			if (Fsm.PreviousActiveState != null)
-			{
-                Log("Goto Previous State: " + Fsm.PreviousActiveState.Name);
-
-				Fsm.GotoPreviousState();
-			}
-			
-			Finish();
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e472920de7265b5bf04c516dcbe730fab7c612828ca7352c967573adfe2328a3
+size 578

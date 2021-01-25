@@ -1,34 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class HealthHandler : MonoBehaviour
-{
-    public int maxHealth = 100;
-    public int currentHealth;
-
-    public HealthBar healthBar; 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        currentHealth = maxHealth;
-        healthBar.SetMaxHealth(maxHealth);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            TakeDamage(20);
-        }
-    }
-
-    void TakeDamage(int damage)
-    {
-        currentHealth -= damage;
-
-        healthBar.SetHealth(currentHealth);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5624290861db18d2acbe3be7bb3771dc653e4f1c75fb647dccf25763553e6081
+size 703

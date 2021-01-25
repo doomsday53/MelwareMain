@@ -1,22 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class StartWeaponTest : MonoBehaviour
-{
-    [SerializeField] private TutorialText tutorial;
-    // Start is called before the first frame update
-    void Start()
-    {
-        tutorial = FindObjectOfType<TutorialText>();
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            tutorial.startedWeaponTest = true;
-            gameObject.SetActive(false);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:56bcab082adf0f900a839bf85fa83f99d496d10fdda199ec15d6d3ba0b8b393d
+size 562

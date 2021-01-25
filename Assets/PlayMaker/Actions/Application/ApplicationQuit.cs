@@ -1,22 +1,3 @@
-﻿// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.Application)]
-	[Tooltip("Quits the player application.")]
-	public class ApplicationQuit : FsmStateAction
-	{
-		public override void Reset()
-		{
-		}
-
-		public override void OnEnter()
-		{
-			Application.Quit();
-
-			Finish();
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d718fbd3643ea913558c0bba1e5e0d4076927bd3cb5b10896bed28cf40892fb8
+size 415

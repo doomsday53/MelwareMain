@@ -1,34 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory("PlayerPrefs")]
-	[Tooltip("Removes key and its corresponding value from the preferences.")]
-	public class PlayerPrefsDeleteKey : FsmStateAction
-	{
-		public FsmString key;
-				
-		public override void Reset()
-		{
-			key = "";
-		}
-
-		public override void OnEnter()
-		{
-			if(!key.IsNone && !key.Value.Equals("")) PlayerPrefs.DeleteKey(key.Value);
-			Finish();
-		}
-
-#if UNITY_EDITOR
-
-	    public override string AutoName()
-	    {
-	        return ActionHelpers.AutoName("PlayerPrefsDelete", key);
-	    }
-
-#endif
-
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e4b2f58e1f4b326624777e995ae92ec7074ea8e13084052c477ba45317aed05
+size 694

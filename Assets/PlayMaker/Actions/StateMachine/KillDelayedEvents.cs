@@ -1,19 +1,3 @@
-// (c) copyright Hutong Games, LLC 2010-2012. All rights reserved.
-
-namespace HutongGames.PlayMaker.Actions
-{
-    [ActionCategory(ActionCategory.StateMachine)]
-    [Note("Kill all queued delayed events.")]
-    [Tooltip("Kill all queued delayed events. " +
-             "Normally delayed events are automatically killed when the active state is exited, " +
-             "but you can override this behaviour in FSM settings. " +
-             "If you choose to keep delayed events you can use this action to kill them when needed.")]
-    public class KillDelayedEvents : FsmStateAction
-    {
-        public override void OnEnter()
-        {
-            Fsm.KillDelayedEvents();           
-            Finish();
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f2102b1507b1fa6fa2bb4d3d75d9f1bc8ce4cdb422e6565d05bf0765fbfba3c0
+size 745

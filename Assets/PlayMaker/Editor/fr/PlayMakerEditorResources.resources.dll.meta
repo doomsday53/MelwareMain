@@ -1,22 +1,3 @@
-fileFormatVersion: 2
-guid: e47236d35f408df498a319746efab596
-PluginImporter:
-  serializedVersion: 1
-  iconMap: {}
-  executionOrder: {}
-  isPreloaded: 0
-  platformData:
-    Any:
-      enabled: 0
-      settings: {}
-    Editor:
-      enabled: 0
-      settings:
-        DefaultValueInitialized: true
-    WindowsStoreApps:
-      enabled: 0
-      settings:
-        CPU: AnyCPU
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4ad8629ec478894ba3bdaf60fe65b22bfc2e95c6ca9770706d763042acb59a0
+size 448

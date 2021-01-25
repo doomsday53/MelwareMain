@@ -1,20 +1,3 @@
-﻿// (c) Copyright HutongGames, LLC 2010-2018. All rights reserved.
-
-using UnityEngine;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.UI)]
-	[Tooltip("Force all canvases to update their content.\n" +
-	         "Code that relies on up-to-date layout or content can call this method to ensure it before executing code that relies on it.")]
-	public class UiCanvasForceUpdateCanvases: FsmStateAction
-	{
-
-		public override void OnEnter()
-		{
-			Canvas.ForceUpdateCanvases();
-
-			Finish();
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:138c9ecd4919c3a1c72fbd5eb4b2b789c3376ffa5b80fdf3cde9a364304a13dc
+size 540

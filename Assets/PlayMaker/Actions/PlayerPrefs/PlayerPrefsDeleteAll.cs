@@ -1,21 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory("PlayerPrefs")]
-	[Tooltip("Removes all keys and values from the preferences. Use with caution.")]
-	public class PlayerPrefsDeleteAll : FsmStateAction
-	{
-		public override void Reset()
-		{
-		}
-		
-		public override void OnEnter()
-		{
-			PlayerPrefs.DeleteAll();
-			Finish();
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:540d69768f097492b67629d954d4e42c83c43ecee307ab64b8ef81d1b7ff37b1
+size 447

@@ -1,16 +1,3 @@
-﻿// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.GUILayout)]
-	[Tooltip("Close a group started with GUILayout Begin ScrollView.")]
-	public class GUILayoutEndScrollView : FsmStateAction
-	{
-		public override void OnGUI()
-		{
-			GUILayout.EndScrollView();
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b2596a1ed79a603f9c3b74315aae4f9bd5d07528af0b9741c2fdfc498ed27020
+size 390

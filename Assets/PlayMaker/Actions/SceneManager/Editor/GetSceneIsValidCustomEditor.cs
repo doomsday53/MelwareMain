@@ -1,27 +1,3 @@
-﻿// (c) Copyright HutongGames, LLC 2010-2016. All rights reserved.
-
-#if UNITY_5_3 || UNITY_5_3_OR_NEWER
-
-using UnityEngine;
-using UnityEditor;
-using HutongGames.PlayMaker.Actions;
-using HutongGames.PlayMakerEditor;
-
-[CustomActionEditor(typeof(GetSceneIsValid))]
-public class GetSceneIsValidCustomEditor : GetSceneActionBaseCustomEditor
-{
-	public override bool OnGUI()
-	{
-		bool changed = EditSceneReferenceField();
-
-		EditField("isValid");
-		EditField("isValidEvent");
-		EditField("isNotValidEvent");
-
-		EditSceneReferenceResultFields();
-
-		return GUI.changed || changed;
-	}
-}
-
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:40b716af110cabc4a1ab2092abc6236fad3d99da3b60e7161971ed056d7e44a5
+size 612

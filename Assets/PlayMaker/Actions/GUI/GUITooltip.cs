@@ -1,25 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-using System.Collections.Generic;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.GUI)]
-	[Tooltip("Gets the Tooltip of the control the mouse is currently over and store it in a String Variable.")]
-	public class GUITooltip : FsmStateAction
-	{
-		[UIHint(UIHint.Variable)]
-		public FsmString storeTooltip;
-			
-		public override void Reset()
-		{
-			storeTooltip = null;
-		}
-
-		public override void OnGUI()
-		{
-			storeTooltip.Value = GUI.tooltip;
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:edbb1bd9a12cefa6ee9584a313c02485addcb537813be3d37d9dcbbe6861d769
+size 588

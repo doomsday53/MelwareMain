@@ -1,23 +1,3 @@
-using UnityEditor;
-using UnityEngine;
-
-namespace Cinemachine.Editor
-{
-    [CustomEditor(typeof(CinemachineHardLookAt))]
-    public sealed class CinemachineHardLookAtEditor : BaseEditor<CinemachineHardLookAt>
-    {
-        public override void OnInspectorGUI()
-        {
-            BeginInspector();
-            if (Target.LookAtTarget == null)
-                EditorGUILayout.HelpBox(
-                    "Hard Look At requires a LookAt target.  Change Aim to Do Nothing if you don't want a LookAt target.", 
-                    MessageType.Warning);
-            EditorGUI.BeginChangeCheck();
-            GUI.enabled = false;
-            EditorGUILayout.LabelField(" ", "Hard Look At has no settings", EditorStyles.miniLabel);
-            GUI.enabled = true;
-            DrawRemainingPropertiesInInspector();
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f4f694ecb11b3b1388ecbec836c06004893fb79a1f8700ee3a5f70fa2bd2f9e
+size 851

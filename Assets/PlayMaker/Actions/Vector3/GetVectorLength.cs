@@ -1,35 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.Vector3)]
-	[Tooltip("Get Vector3 Length.")]
-	public class GetVectorLength : FsmStateAction
-	{
-		public FsmVector3 vector3;
-		[RequiredField]
-		[UIHint(UIHint.Variable)]
-		public FsmFloat storeLength;
-		
-		public override void Reset()
-		{
-			vector3 = null;
-			storeLength = null;
-		}
-
-		public override void OnEnter()
-		{
-			DoVectorLength();
-			Finish();
-		}
-		
-		void DoVectorLength()
-		{
-			if (vector3 == null) return;
-			if (storeLength == null) return;
-			storeLength.Value = vector3.Value.magnitude;
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:db78a7124546f8bc57fcf89200e5356af98b8a97f7e8f4ac80105d34e51dc4ca
+size 710

@@ -1,23 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.StateMachine)]
-	[Tooltip("Sets the target FSM for all subsequent events sent by this state. The default 'Self' sends events to this FSM.")]
-	public class SetEventTarget : FsmStateAction
-	{
-		public FsmEventTarget eventTarget;
-		
-		public override void Reset()
-		{
-		}
-
-		public override void OnEnter()
-		{
-			Fsm.EventTarget = eventTarget;
-			Finish();
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:99e971ec09ff583d522228171a0e7b51f3bc1d59ac2399a713ffe8bd29c08600
+size 544

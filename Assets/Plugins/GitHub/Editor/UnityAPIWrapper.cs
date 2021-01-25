@@ -1,20 +1,3 @@
-using UnityEditor;
-using UnityEngine;
-using System.IO;
-using System;
-
-namespace GitHub.Unity
-{
-    [InitializeOnLoad]
-    public class UnityAPIWrapper : ScriptableSingleton<UnityAPIWrapper>
-    {
-        static UnityAPIWrapper()
-        {
-#if UNITY_2018_2_OR_NEWER
-            Editor.finishedDefaultHeaderGUI += editor => {
-                UnityShim.Raise_Editor_finishedDefaultHeaderGUI(editor);
-            };
-#endif
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:75f4c6afa431e7081d676d0e93afd78a7cc960d7cf3218c422f9dc0212d4f1de
+size 455

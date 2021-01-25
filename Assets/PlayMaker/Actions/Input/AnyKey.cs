@@ -1,28 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.Input)]
-	[Tooltip("Sends an Event when the user hits any Key or Mouse Button.")]
-	public class AnyKey : FsmStateAction
-	{
-		[RequiredField]
-		[Tooltip("Event to send when any Key or Mouse Button is pressed.")]
-		public FsmEvent sendEvent;
-
-		public override void Reset()
-		{
-			sendEvent = null;
-		}
-
-		public override void OnUpdate()
-		{
-			if (Input.anyKeyDown)
-			{
-				Fsm.Event(sendEvent);
-			}
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6209f846824962785c3385f7e3670699a866ab40cc1e2badd82adc413b15685
+size 596

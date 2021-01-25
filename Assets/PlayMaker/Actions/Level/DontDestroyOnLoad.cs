@@ -1,35 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using System.Collections;
-using UnityEngine;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.Level)]
-	[Tooltip("Makes the Game Object not be destroyed automatically when loading a new scene.")]
-	public class DontDestroyOnLoad : FsmStateAction
-	{
-		[RequiredField]
-        [Tooltip("GameObject to mark as DontDestroyOnLoad.")]
-		public FsmOwnerDefault gameObject;
-
-		public override void Reset()
-		{
-			gameObject = null;
-		}
-
-		public override void OnEnter()
-		{
-			// Have to get the root, since the game object will be destroyed if any of its parents are destroyed.
-			
-			GameObject _go = Fsm.GetOwnerDefaultTarget(gameObject);
-			
-			if (_go!=null)
-			{
-				Object.DontDestroyOnLoad( _go.transform.root.gameObject);
-			}
-
-			Finish();
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0de345684d7363b4f63e8e7a8433d8d07a3c1ded4aad0c548a47066a2d752f2b
+size 875

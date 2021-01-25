@@ -1,16 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
-
-/* NOTE: Wrapper no longer needed in Unity 4.x
- * BUT: changing it breaks saved layouts
- * SO: wrap in namespace instead (supported in 4.x)
- */
-
-// EditorWindow classes can't be called from a dll in Unity 3.5
-// so create a thin wrapper class as a workaround
-
-namespace HutongGames.PlayMakerEditor
-{
-    public class FsmStateWindow : StateSelector
-    {
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e6474d44ed020ae9eaad17401f23aed6caa39c4782f3026ea2af9d26051b6e9
+size 445

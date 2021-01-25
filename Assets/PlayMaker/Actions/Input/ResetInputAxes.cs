@@ -1,19 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.Input)]
-	[Tooltip("Resets all Input. After ResetInputAxes all axes return to 0 and all buttons return to 0 for one frame")]
-	public class ResetInputAxes : FsmStateAction
-	{
-		public override void Reset(){}
-		
-		public override void OnEnter()
-		{
-			Input.ResetInputAxes();
-			Finish();
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:52d6f50bb847a12794c1df8982c3ce1818005eca5823a417078a7d8651097cbf
+size 473

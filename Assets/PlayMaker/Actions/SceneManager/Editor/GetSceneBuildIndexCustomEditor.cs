@@ -1,25 +1,3 @@
-﻿// (c) Copyright HutongGames, LLC 2010-2016. All rights reserved.
-
-#if UNITY_5_3 || UNITY_5_3_OR_NEWER
-
-using UnityEngine;
-using UnityEditor;
-using HutongGames.PlayMaker.Actions;
-using HutongGames.PlayMakerEditor;
-
-[CustomActionEditor(typeof(GetSceneBuildIndex))]
-public class GetSceneBuildIndexCustomEditor : GetSceneActionBaseCustomEditor
-{
-	public override bool OnGUI()
-	{
-		bool changed = EditSceneReferenceField();
-
-		EditField("buildIndex");
-
-		EditSceneReferenceResultFields ();
-
-		return GUI.changed || changed;
-	}
-}
-
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:69215c3e86ab040bb61fc2211b829555e3aca27fde2e0cd1da30af6240904118
+size 559

@@ -1,31 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class CharacterAnim : MonoBehaviour
-{
-    private Animator anim;
-
-    void Start()
-    {
-        anim = GetComponent<Animator>();
-    }
-
-    void Update()
-    {
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
-        {
-            anim.SetBool("isRunning", true);
-        }
-        else
-        {
-            anim.SetBool("isRunning", false);
-        }
-        {
-            if(Input.GetKeyDown(KeyCode.Space))
-            {
-                anim.SetTrigger("Jump");
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:417f5f4e8078a21dd7beca5220b941fb1a8ef228fc5836bd8765a19a58b59634
+size 635

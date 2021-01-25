@@ -1,28 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2016. All rights reserved.
-
-using UnityEngine;
-using UnityEditor;
-
-using HutongGames.PlayMaker.Actions;
-using HutongGames.PlayMakerEditor;
-
-[CustomActionEditor(typeof(GetAnimatorCurrentStateInfoIsTag))]
-public class GetAnimatorCurrentStateInfoIsTagActionEditor : OnAnimatorUpdateActionEditorBase
-{
-
-	public override bool OnGUI()
-	{
-		EditField("gameObject");
-		EditField("layerIndex");
-		EditField("tag");
-
-		EditField("tagMatch");
-		EditField("tagMatchEvent");
-		EditField("tagDoNotMatchEvent");
-
-		bool changed = EditEveryFrameField();
-		
-		return GUI.changed || changed;
-	}
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e14730d4d6e38ac4796bcb7831f3e05a2b2bbd84e286ce13ea581808e7216fd9
+size 647

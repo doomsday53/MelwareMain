@@ -1,22 +1,3 @@
-﻿// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.Device)]
-	[Tooltip("Causes the device to vibrate for half a second.")]
-	public class DeviceVibrate : FsmStateAction
-	{
-		public override void Reset()
-		{}
-
-		public override void OnEnter()
-        {
-#if (UNITY_IPHONE || UNITY_IOS || UNITY_ANDROID)			
-			Handheld.Vibrate();
-#endif
-            Finish();
-        }
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:26a2a0cae71487e253e05a3036ae123e20219b9a6e2f67eb2a7b286ac66b43b2
+size 502

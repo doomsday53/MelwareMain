@@ -1,33 +1,3 @@
-﻿#if !PLAYMAKER_NO_UI
-
-using HutongGames.PlayMaker.Actions;
-using UnityEngine;
-using UnityEngine.EventSystems;
-
-namespace HutongGames.PlayMaker
-{
-    [AddComponentMenu("PlayMaker/UI/UI Drag Events")]
-    public class PlayMakerUiDragEvents : PlayMakerUiEventBase, 
-        IDragHandler, IBeginDragHandler, IEndDragHandler
-    {
-        public void OnBeginDrag(PointerEventData eventData)
-        {
-            UiGetLastPointerDataInfo.lastPointerEventData = eventData;
-            SendEvent(FsmEvent.UiBeginDrag);
-        }
-
-        public void OnDrag(PointerEventData eventData)
-        {
-            UiGetLastPointerDataInfo.lastPointerEventData = eventData;
-            SendEvent(FsmEvent.UiDrag);
-        }
-
-        public void OnEndDrag(PointerEventData eventData)
-        {
-            UiGetLastPointerDataInfo.lastPointerEventData = eventData;
-            SendEvent(FsmEvent.UiEndDrag);
-        }
-    }
-}
-
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:5895fa3558d1aef65670f50eb8dfe7b89beea225da33d40f6001a331f4f56ca3
+size 952

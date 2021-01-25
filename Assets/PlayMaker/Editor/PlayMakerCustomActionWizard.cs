@@ -1,16 +1,3 @@
-﻿// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
-
-/* NOTE: Wrapper no longer needed in Unity 4.x
- * BUT: changing it breaks saved layouts
- * SO: wrap in namespace instead (supported in 4.x)
- */
-
-// EditorWindow classes can't be called from a dll in Unity 3.5
-// so create a thin wrapper class as a workaround
-
-namespace HutongGames.PlayMakerEditor
-{
-    internal class PlayMakerCustomActionWizard : CustomActionWizard
-    {
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b30d84b039ae88448097e1421d5e01aecc203a1f040a2759e1daf0b510dad12f
+size 468

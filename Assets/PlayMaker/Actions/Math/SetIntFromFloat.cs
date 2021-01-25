@@ -1,35 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.Math)]
-	[Tooltip("Sets the value of an integer variable using a float value.")]
-	public class SetIntFromFloat : FsmStateAction
-	{
-		[RequiredField]
-		[UIHint(UIHint.Variable)]
-		public FsmInt intVariable;
-		public FsmFloat floatValue;
-		public bool everyFrame;
-
-		public override void Reset()
-		{
-			intVariable = null;
-			floatValue = null;
-			everyFrame = false;
-		}
-
-		public override void OnEnter()
-		{
-			intVariable.Value = (int)floatValue.Value;
-			
-			if (!everyFrame)
-				Finish();		
-		}
-
-		public override void OnUpdate()
-		{
-			intVariable.Value = (int)floatValue.Value;
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d33ae7a6ecaabe2c3de7276f505828b1fd3527dbc2da2404ad293747e321017
+size 765

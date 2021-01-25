@@ -1,33 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-/*
- * @author Nate Nicholson
- * class LowerCameraBounds is meant to be placed on an object that will limit
- * the camera from moving further down.
- */
-public class LowerCameraBounds : MonoBehaviour
-{
-    public new CameraMovement camera;
-    public SpriteRenderer spriteRenderer;
-    // Start is called before the first frame update
-    void Start()
-    {
-        camera = FindObjectOfType<CameraMovement>();
-        spriteRenderer.enabled = false;
-    }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.CompareTag("MainCamera"))
-        {
-            camera.lowerLimitHit = true;
-        }
-    }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.CompareTag("MainCamera"))
-        {
-            camera.lowerLimitHit = false;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3ea944859676ff52b4af75dc68b79f7fbb741b38ba8ee2d798cd2fdd408ee9f1
+size 925

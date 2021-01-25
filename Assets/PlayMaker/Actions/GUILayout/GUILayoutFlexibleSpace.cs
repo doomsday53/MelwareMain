@@ -1,21 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-using System.Collections.Generic;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.GUILayout)]
-	[Tooltip("Inserts a flexible space element.")]
-	public class GUILayoutFlexibleSpace : FsmStateAction
-	{
-		public override void Reset()
-		{
-		}
-
-		public override void OnGUI()
-		{
-			GUILayout.FlexibleSpace();
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a4d22c2a712db0cd7bdd005e643f54999c3367d8234d1651af23236b232e37ab
+size 445

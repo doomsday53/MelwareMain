@@ -1,29 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.GUI)]
-	[Tooltip("Sets the sorting depth of subsequent GUI elements.")]
-	public class SetGUIDepth : FsmStateAction
-	{
-		[RequiredField]
-		public FsmInt depth;
-
-		public override void Reset()
-		{
-			depth = 0;
-		}
-
-        public override void OnPreprocess()
-		{
-			Fsm.HandleOnGUI = true;
-		}
-
-		public override void OnGUI()
-		{
-			GUI.depth = depth.Value;
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cfadf20ad0163da223fca5248f6ca8ab58053d73c3b2ba9c23fce7e1bc4b5f42
+size 553

@@ -1,27 +1,3 @@
-﻿// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.StateMachine)]
-	[Tooltip("Gets the Bool data from the last Event.")]
-	public class GetEventBoolData : FsmStateAction
-	{
-		[UIHint(UIHint.Variable)]
-        [Tooltip("Store the bool data in a variable.")]
-		public FsmBool getBoolData;
-
-		public override void Reset()
-		{
-			getBoolData = null;
-		}
-
-		public override void OnEnter()
-		{
-			getBoolData.Value = Fsm.EventData.BoolData;
-			
-			Finish();
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b49c3e7312c8238bdb8bff6eed6dc3808148e770c7cd843ea3d099bb46cb60fa
+size 597

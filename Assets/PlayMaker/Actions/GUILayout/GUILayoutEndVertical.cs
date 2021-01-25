@@ -1,21 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-using System.Collections.Generic;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.GUILayout)]
-	[Tooltip("Close a group started with BeginVertical.")]
-	public class GUILayoutEndVertical : FsmStateAction
-	{
-		public override void Reset()
-		{
-		}
-
-		public override void OnGUI()
-		{
-			GUILayout.EndVertical();
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:861f31482da68c64e43644a9b40cc90b060481c3c557ebf165c58e2e3d38924d
+size 449

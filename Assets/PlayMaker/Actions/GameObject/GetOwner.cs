@@ -1,27 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.GameObject)]
-	[Tooltip("Gets the Game Object that owns the FSM and stores it in a game object variable.")]
-	public class GetOwner : FsmStateAction
-	{
-		[RequiredField]
-		[UIHint(UIHint.Variable)]
-		public FsmGameObject storeGameObject;
-
-		public override void Reset()
-		{
-			storeGameObject = null;
-		}
-
-		public override void OnEnter()
-		{
-			storeGameObject.Value = Owner;
-			
-			Finish();
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7059e4efc2fa05af9e2ad53add1b63bef58426bc5ba293dc7d6c69663c787d3
+size 587

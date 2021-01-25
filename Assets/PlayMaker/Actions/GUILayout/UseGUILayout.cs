@@ -1,25 +1,3 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
-using UnityEngine;
-
-namespace HutongGames.PlayMaker.Actions
-{
-	[ActionCategory(ActionCategory.GUILayout)]
-	[Tooltip("Turn GUILayout on/off. If you don't use GUILayout actions you can get some performance back by turning GUILayout off. This can make a difference on iOS platforms.")]
-	public class UseGUILayout : FsmStateAction
-	{
-		[RequiredField]
-		public bool turnOffGUIlayout;
-
-		public override void Reset()
-		{
-			turnOffGUIlayout = true;
-		}
-
-		public override void OnEnter()
-		{
-			Fsm.Owner.useGUILayout = !turnOffGUIlayout;
-			Finish();
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f37804251af5551e66c7a9e1e25a41280cd82d90e03d7729e2c79520a65594db
+size 645
